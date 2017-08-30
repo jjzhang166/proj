@@ -1,0 +1,5 @@
+cpp：C++工程所在地，包括引用的一些C++开源库。
+lua：通用的脚本功能，控制台界面通用的lua相关实现等。
+OD：计划存放关于OD逆向分析的一些东西。
+python：包括用python写的自动更新ida数据库信息的插件，其中python/ForFrame/PreBuild.py是用来帮助编译器生成assf资源文件的（assf是本项目所依赖的资源文件系统，类似安卓下的资源打包，也像windows下的rc资源文件）。
+
