@@ -1,0 +1,798 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#include ""res\\Console.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""      // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+//
+
+MAIN.LUA                RCDATA                  "luas\\main.lua"
+TEST                    RCDATA                  "luas\\Test.lua"
+LOGIC                   RCDATA                  "luas\\Logic.lua"
+PUBLIC_PEM_FI           RCDATA                  "../public/res/public_StoC_FI.pem"
+PRIVATE_PEM_FI          RCDATA                  "../public/res/private_CtoS_FI.pem"
+D3D9_DLL				RCDATA					"res\\d3d9.dll"
+GAME_DLL				RCDATA					"res/game.dll"
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_ACCOUNT DIALOGEX 0, 0, 341, 177
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_ACCOUNT_GAME_PATH,85,17,145,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "选择游戏路径",IDC_BT_AACOUNT_SELECT_GAME_PATH,13,17,66,14
+    LTEXT           "运行状态：",IDC_STATIC,30,50,41,8
+    EDITTEXT        IDC_EDIT_THE_RUN_STATE,79,47,60,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "倍攻范围(1-99)：",IDC_STATIC_THE_MULTI_HIT,23,90,70,8
+    EDITTEXT        IDC_EDIT_SET_MULTI_HIT,105,87,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "设置倍攻",IDC_BT_SET_MULTI_HIT,159,87,50,14
+    PUSHBUTTON      "断开连接",IDC_BT_DISCONNECT,25,114,50,14
+END
+
+IDD_DLG_SETTING DIALOGEX 0, 0, 309, 177
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "...",IDC_BT_GAME_PATH,227,16,30,14
+    LTEXT           "游戏路径:",IDC_STATIC,49,21,36,8
+    EDITTEXT        IDC_EDIT_GAME_PATH,101,18,115,14,ES_AUTOHSCROLL
+END
+
+IDD_DLG_TEST DIALOGEX 0, 0, 790, 313
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "加载DLL",IDC_BT_LOAD_LIB,217,18,38,16
+    PUSHBUTTON      "卸载DLL",IDC_BT_UNLOAD_LIB,263,18,33,15
+    LTEXT           "DLL路径：",IDC_STATIC_LOAD_LIB,28,20,47,8
+    EDITTEXT        IDC_EDIT_LOAD_LIB,83,17,77,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "open lib",IDC_BT_OPE_LIB,163,17,44,13
+    PUSHBUTTON      "调用LuaTest函数",IDC_BT_CALL_LUA_FUNCTION,213,43,78,14
+    PUSHBUTTON      "重新加载lua",IDC_BT_RELOAD_LUA,401,19,50,14
+    PUSHBUTTON      "保存LOG到临时文件",IDC_BT_FLUSH_TO_TEMP_FILE,310,19,83,14
+    PUSHBUTTON      "运行自动进入比赛脚本",IDC_BT_RUN_SCRIPT,629,41,161,14
+    PUSHBUTTON      "结束脚本",IDC_BT_TERMINATE_SCRIPT,639,62,151,14
+    LTEXT           "选择一个要通信的帐号：",IDC_STATIC,7,44,89,8
+    COMBOBOX        IDC_DLG_TEXT_COMBO_SELECT_ACCOUNT,103,43,68,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "刷新球员信息",IDC_BT_TEST_GET_PLAYERS_INFO,10,67,61,14
+    CONTROL         "",IDC_LIST_TEST_PLAYERS_INFO,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,1,104,714,102
+    PUSHBUTTON      "开启成功登陆",IDC_BT_TEST_LOGIN_SUCCEED,461,19,68,14
+    LTEXT           "球员总数：",IDC_STATIC,18,88,41,8
+    EDITTEXT        IDC_EDIT_TEST_PLAYERS_CNT,62,87,40,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "物品总数：",IDC_STATIC,117,89,41,8
+    EDITTEXT        IDC_EDIT_TEST_ITEM_TOTAL_CNT,162,86,40,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "",IDC_LIST_TEST_ITEM_INFO,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,210,718,103
+    PUSHBUTTON      "刷新物品信息",IDC_BT_TEST_GET_ITEMS_INFO,78,67,57,14
+END
+
+IDD_DLG_MAIN DIALOGEX 0, 0, 563, 194
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "FIFA"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_GAME_INFO,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_TABSTOP,7,7,549,102
+    LTEXT           "游戏目录",IDC_STATIC,27,158,40,13
+    EDITTEXT        IDC_EDIT_MAIN_GAME_PATH,91,156,153,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览",IDC_BT_MAIN_SET_GAME_PATH,286,156,50,14
+END
+
+IDD_DLG_LOGIN DIALOGEX 0, 0, 257, 111
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登陆"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "登陆点我",IDOK,41,79,43,14
+    LTEXT           "帐号：",IDC_STATIC,17,24,25,8
+    EDITTEXT        IDC_EDIT_LOGIN_ACCOUNT,51,21,159,14,ES_AUTOHSCROLL
+    LTEXT           "密码：",IDC_STATIC,17,54,25,8
+    EDITTEXT        IDC_EDIT_LOGIN_PASSWORD,52,50,159,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "解绑点我",IDC_BT_REMOVE_BIND,153,79,41,14
+    LTEXT           "解绑是要扣时间的哦",IDC_STATIC,79,67,73,8
+END
+
+IDD_DLG_REG DIALOGEX 0, 0, 241, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "注册"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "注册点我",IDOK,83,127,50,14
+    LTEXT           "帐号：",IDC_STATIC,21,22,25,8
+    EDITTEXT        IDC_EDIT_REG_ACCOUNT,55,21,111,14,ES_AUTOHSCROLL
+    LTEXT           "长度(6-18)",IDC_STATIC,174,22,37,8
+    LTEXT           "密码：",IDC_STATIC,21,50,25,8
+    EDITTEXT        IDC_EDIT_REG_PASSWORD,55,48,111,14,ES_AUTOHSCROLL
+    LTEXT           "长度(6-18)",IDC_STATIC,174,50,37,8
+    LTEXT           "确认密码：",IDC_STATIC,15,76,41,8
+    EDITTEXT        IDC_EDIT_REG_CONFIRM_PASSWORD,56,74,111,14,ES_AUTOHSCROLL
+    LTEXT           "QQ：",IDC_STATIC,24,103,20,8
+    EDITTEXT        IDC_EDIT_REG_QQ,56,102,111,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "长度(6-10)",IDC_STATIC,175,106,37,8
+END
+
+IDD_DLG_PAY DIALOGEX 0, 0, 265, 142
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "支付"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "充值请点我",IDOK,99,120,50,14
+    LTEXT           "卡号：",IDC_STATIC,38,22,25,8
+    EDITTEXT        IDC_EDIT_PAY_CARD_SERIAL,77,20,149,14,ES_AUTOHSCROLL
+    LTEXT           "卡密：",IDC_STATIC,37,48,25,8
+    EDITTEXT        IDC_EDIT_PAY_CARD_PASSWORD,77,48,151,14,ES_AUTOHSCROLL
+    LTEXT           "帐号：",IDC_STATIC,38,76,25,8
+    EDITTEXT        IDC_EDIT_PAY_THE_ACCOUNT,77,73,151,14,ES_AUTOHSCROLL
+    LTEXT           "确认帐号：",IDC_STATIC,32,98,41,8
+    EDITTEXT        IDC_EDIT_PAY_CONFIRM_ACCOUNT,76,97,153,14,ES_AUTOHSCROLL
+END
+
+IDD_DLG_ADD_ACCOUNT_HELPER DIALOGEX 0, 0, 201, 126
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加帐号"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确认添加",IDOK,69,105,50,14
+    LTEXT           "游戏帐号:",IDC_STATIC,19,21,36,8
+    EDITTEXT        IDC_EDIT_ADD_THE_ACCOUNT,68,20,102,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "游戏密码:",IDC_STATIC,20,56,36,8
+    EDITTEXT        IDC_EDIT_ADD_THE_PASSWORD,66,54,102,14,ES_AUTOHSCROLL
+    LTEXT           "服务器：",IDC_STATIC,23,80,41,11
+    COMBOBOX        IDC_COMBO_ADD_AC_SELECT_SERVICE,68,78,74,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_SET_SCRIPT DIALOGEX 0, 0, 253, 148
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择脚本"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "选择脚本",IDOK,95,116,50,14
+    COMBOBOX        IDC_COMBO_SELECT_SCRIPT,91,26,83,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "请选择一个脚本:",IDC_STATIC,19,28,60,8
+END
+
+IDD_DLG_SELECT_SERVICE DIALOGEX 0, 0, 211, 114
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择一个游戏服务器"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "选择",IDOK,77,92,50,14
+    COMBOBOX        IDC_COMBO_SELECT_SERVICE,61,21,89,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_AUTO_RUN_SCRIPT DIALOGEX 0, 0, 177, 87
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登陆完成的时候是否自动运行脚本"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,60,66,50,14
+    COMBOBOX        IDC_COMBO_AUTO_RUN_SCRIPT,60,21,48,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_CRACK_CAPTCHA_SET_ACCOUNT DIALOGEX 0, 0, 223, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "答题的帐号和密码"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,85,73,50,14
+    LTEXT           "帐号：",IDC_STATIC,34,25,25,8
+    LTEXT           "密码：",IDC_STATIC,34,45,25,8
+    EDITTEXT        IDC_EDIT_CRACK_CATPCHA_ACCOUNT,71,24,108,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CRACK_CAPTCHA_PASSWORD,74,44,104,14,ES_AUTOHSCROLL
+END
+
+IDD_DLG_CRACK_CATPCHA_SET_SERVICE_INFO DIALOGEX 0, 0, 223, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置服务信息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,79,74,50,14
+    LTEXT           "答题服务所在机的IP：",IDC_STATIC,7,25,80,8
+    LTEXT           "答题服务所在机的端口：",IDC_STATIC,7,49,89,8
+    EDITTEXT        IDC_EDIT_CRACK_CATPCHA_REMOTE_PORT,102,49,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_IPADDR_CRACK_CAPTCHA,"SysIPAddress32",WS_TABSTOP,97,26,100,15
+END
+
+IDD_DLG_CHECK_SERVER_INFO DIALOGEX 0, 0, 219, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置验证服务信息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,77,66,50,14
+    LTEXT           "验证服务器IP：",IDC_STATIC,23,26,56,8
+    CONTROL         "",IDC_IPADDRESS_CHECK_SERVER,"SysIPAddress32",WS_TABSTOP,85,22,100,15
+END
+
+IDD_DLG_SET_MAX_LOGIN DIALOGEX 0, 0, 201, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置最大登陆数量"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,76,69,50,14
+    LTEXT           "最大更新数量：",IDC_STATIC,34,29,57,8
+    EDITTEXT        IDC_EDIT_SET_MAX_LOGIN,110,27,40,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DLG_MGR_AC DIALOGEX 0, 0, 201, 85
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "帐号管理"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,71,64,50,14
+    PUSHBUTTON      "导入帐号",IDC_BT_IMPORT_AC,28,37,50,14
+    PUSHBUTTON      "导出帐号",IDC_BT_EXPORT_AC,106,37,50,14
+    CONTROL         "使用旧的导入导出格式",IDC_CHECK_USE_OLD_FORMAT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,15,96,10
+END
+
+IDD_DLG_SELECT_GAME_AC_TYPE DIALOGEX 0, 0, 199, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置游戏号的种类"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,77,69,50,14
+    COMBOBOX        IDC_COMBO_SELECT_GAME_AC_TYPE,65,26,71,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_TRADE DIALOGEX 0, 0, 794, 319
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_TRADE_MY_OFFER_LIST,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,35,783,116
+    CONTROL         "",IDC_LIST_TRADE_OTHER_OFFER_ITEMS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,158,783,160
+    PUSHBUTTON      "刷新我的出售列表",IDC_BT_GET_MY_OFFER_LIST,15,15,85,14
+    PUSHBUTTON      "刷新其他种类的出售项",IDC_BT_GET_OTHER_OFFER_ITEMS,127,15,85,14
+    LTEXT           "我的出售列表总数:",IDC_STATIC,236,17,68,8
+    EDITTEXT        IDC_EDIT_TRADE_MY_OFFER_LIST_CNT,306,15,40,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "其他号的出售项总数:",IDC_STATIC,363,18,76,8
+    EDITTEXT        IDC_EDIT_TRADE_OTHER_OFFER_ITEMS_CNT,447,15,40,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+END
+
+IDD_DLG_PAGE_SKILL DIALOGEX 0, 0, 710, 205
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_SKILL_INFO,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,88,696,110
+    LTEXT           "总数：",IDC_STATIC,21,70,25,8
+    EDITTEXT        IDC_EDIT_SKILLS_TOTAL_CNT,47,68,34,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    PUSHBUTTON      "刷新技能",IDC_BT_REFRESH_SKILL_INFO,61,18,50,14
+END
+
+IDD_DLG_PAGE_GAME_OBJS DIALOGEX 0, 0, 877, 219
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_GAME_OBJS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,106,863,106
+    LTEXT           "总数：",IDC_STATIC,17,89,25,8
+    EDITTEXT        IDC_EDIT_GAME_OBJS_TOTAL_CNT,43,86,40,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    PUSHBUTTON      "刷新游戏对象",IDC_BT_REFRESH_GAME_OBJS,95,28,58,14
+END
+
+IDD_DLG_PAGE_ITEMS DIALOGEX 0, 0, 862, 269
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "总数：",IDC_STATIC,42,58,25,8
+    EDITTEXT        IDC_EDIT_PAGE_ITEM_TOTAL_CNT,67,55,36,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    PUSHBUTTON      "刷新物品信息",IDC_BT_REFRESH_PAGE_ITEMS,219,47,62,14
+    CONTROL         "",IDC_LIST_PAGE_ITEMS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,84,848,178
+END
+
+IDD_DLG_PAGE_ROOM_INFO DIALOGEX 0, 0, 766, 227
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_PAGE_ROOM_INFO,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,90,752,130
+    PUSHBUTTON      "刷新房间信息",IDC_BT_REFRESH_ROOM_INFO,293,28,56,14
+END
+
+IDD_DLG_PAGE_TASK DIALOGEX 0, 0, 733, 225
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_PAGE_TASK,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,82,719,136
+END
+
+IDD_DLG_MSG_BOARD DIALOGEX 0, 0, 309, 181
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "留言版"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "提交留言",IDOK,124,155,50,14
+    LTEXT           "不管什么建议或需求，阁下尽管提出来，我们会怀着崇高的心情谨而待之",IDC_STATIC,27,20,257,8
+    EDITTEXT        IDC_EDIT_MSG_BOARD,52,52,199,99,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_HSCROLL,WS_EX_ACCEPTFILES | WS_EX_LEFTSCROLLBAR
+    LTEXT           "每个帐号每天可提2个留言，每次最多75个中文字符",IDC_STATIC,60,37,181,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DLG_ACCOUNT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 334
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DLG_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DLG_TEST, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_DLG_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 556
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_DLG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_DLG_REG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 142
+    END
+
+    IDD_DLG_PAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_DLG_ADD_ACCOUNT_HELPER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_DLG_SET_SCRIPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_DLG_SELECT_SERVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_DLG_AUTO_RUN_SCRIPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_DLG_CRACK_CAPTCHA_SET_ACCOUNT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DLG_CRACK_CATPCHA_SET_SERVICE_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DLG_CHECK_SERVER_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DLG_SET_MAX_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DLG_MGR_AC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_DLG_SELECT_GAME_AC_TYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DLG_TRADE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 790
+        TOPMARGIN, 7
+    END
+
+    IDD_DLG_PAGE_SKILL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 703
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_DLG_PAGE_GAME_OBJS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 870
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_DLG_PAGE_ITEMS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 855
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 262
+    END
+
+    IDD_DLG_PAGE_ROOM_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 759
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_DLG_PAGE_TASK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 726
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_ACCOUNT_LIST MENU
+BEGIN
+    POPUP "show at item"
+    BEGIN
+        MENUITEM "添加帐号",                        ID_MENU_ADD_ACCOUNT
+        MENUITEM "删除帐号",                        ID_MENU_DELETE_ACCOUNT
+        MENUITEM "开始脚本",                        ID_MENU_BEGIN
+        MENUITEM "停止脚本",                        ID_MENU_STOP
+        MENUITEM "显示游戏窗口",                      ID_MENU_LIST_SHOW_GAME_WINDOW
+        MENUITEM "设置脚本",                        ID_MENU_LIST_SET_SCRIPT
+        MENUITEM "统计信息",                        ID_MENU_SHOW_ACCOUNT_INFO
+        MENUITEM "关闭游戏进程",                      ID_MENU_CLOSE_PROCESS
+        MENUITEM "登陆游戏",                        ID_Menu_BEGIN_LOGIN
+        MENUITEM "选择服务器",                       ID_Menu_SELECT_SERVICE
+        MENUITEM "自动运行脚本",                      ID_Menu_AUTO_RUN_SCRIPT
+        MENUITEM "设置号种类",                       ID_Menu_SELECT_GAME_AC_TYPE
+        MENUITEM "查看此号交易信息",                    ID_Menu_AS_NOTIFY_OBJ
+        MENUITEM "取消禁止登陆项",                     ID_Menu_CancelProhibit
+        MENUITEM "此号作为通信项",                     ID_Menu_NOTIFY_AS_THIS
+    END
+END
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "主菜单"
+    BEGIN
+        MENUITEM "登陆或解绑",                       ID_MENU_LOGIN
+        MENUITEM "注册",                          ID_MENU_REG
+        MENUITEM "支付",                          ID_MENU_PAY
+    END
+END
+
+IDR_MENU_ACCOUNT_LIST_ALL MENU
+BEGIN
+    POPUP "show not at item"
+    BEGIN
+        MENUITEM "添加帐号",                        ID_MENU_ADD_ACCOUNT
+        MENUITEM "开始所有脚本",                      ID_MENU_START_ALL_SCRIPT
+        MENUITEM "停止所有脚本",                      ID_MENU_STOP_ALL_SCRIPT
+        MENUITEM "查看所有统计信息",                    ID_MENU_SHOW_ALL_ACCOUNT_INFO
+        MENUITEM "关闭所有游戏进程",                    ID_MENU_CLOSE_ALL_PROCESS
+        MENUITEM "批量上号",                        ID_Menu_LOGIN_SOME_GAME
+        MENUITEM "批量自动运行脚本",                    ID_Menu_ALL_AUTO_RUN_SCRIPT
+        MENUITEM "停止批量上号",                      ID_Menu_STOP_LOGIN_ALL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "JFZR-沧海"
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Console.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "Console"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Console.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "Console.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "Console"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#include "res\Console.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"      // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

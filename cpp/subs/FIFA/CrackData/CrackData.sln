@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "d3d9", "d3d9", "{00C6CA93-0BFC-4F9A-A828-AF2DF5E1ADBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FeatureCode", "FeatureCode", "{5C71F623-0470-4C54-B2BD-91293E94A981}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SomeLpk", "SomeLpk", "{1211AEBE-CFA7-4FC6-ACBE-782D35EF8220}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d3d9", "d3d9\hijacked\hijacked.vcxproj", "{28063485-5E2E-4DE0-AF6A-0C4CDBA21BFC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheckCrack", "SomeLpk\CheckCrack\CheckCrack\CheckCrack.vcxproj", "{87BFC0CB-DDCA-44BC-9377-010CCF146233}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IpTest", "SomeLpk\CheckCrack\IpTest\IpTest.vcxproj", "{6F846856-66FF-41DA-986A-67814913285F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lpk", "SomeLpk\lpk\lpk\lpk.vcxproj", "{B7A92880-D213-4D8E-ACDA-0B01A4D565A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fifacalltest", "dlgfifacalltest\jfzrcalltest\jfzrcalltest.vcxproj", "{48787FF2-C96F-41B5-84E8-E60F4079CD68}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoUpdate", "FeatureCode\AutoUpdate\AutoUpdate.vcxproj", "{8416A370-8285-4185-BC4E-6C381BDBA9BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28063485-5E2E-4DE0-AF6A-0C4CDBA21BFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28063485-5E2E-4DE0-AF6A-0C4CDBA21BFC}.Debug|Win32.Build.0 = Debug|Win32
+		{28063485-5E2E-4DE0-AF6A-0C4CDBA21BFC}.Release|Win32.ActiveCfg = Release|Win32
+		{28063485-5E2E-4DE0-AF6A-0C4CDBA21BFC}.Release|Win32.Build.0 = Release|Win32
+		{87BFC0CB-DDCA-44BC-9377-010CCF146233}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87BFC0CB-DDCA-44BC-9377-010CCF146233}.Debug|Win32.Build.0 = Debug|Win32
+		{87BFC0CB-DDCA-44BC-9377-010CCF146233}.Release|Win32.ActiveCfg = Release|Win32
+		{87BFC0CB-DDCA-44BC-9377-010CCF146233}.Release|Win32.Build.0 = Release|Win32
+		{6F846856-66FF-41DA-986A-67814913285F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F846856-66FF-41DA-986A-67814913285F}.Debug|Win32.Build.0 = Debug|Win32
+		{6F846856-66FF-41DA-986A-67814913285F}.Release|Win32.ActiveCfg = Release|Win32
+		{6F846856-66FF-41DA-986A-67814913285F}.Release|Win32.Build.0 = Release|Win32
+		{B7A92880-D213-4D8E-ACDA-0B01A4D565A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7A92880-D213-4D8E-ACDA-0B01A4D565A2}.Debug|Win32.Build.0 = Debug|Win32
+		{B7A92880-D213-4D8E-ACDA-0B01A4D565A2}.Release|Win32.ActiveCfg = Release|Win32
+		{B7A92880-D213-4D8E-ACDA-0B01A4D565A2}.Release|Win32.Build.0 = Release|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Debug|Win32.Build.0 = Debug|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Release|Win32.ActiveCfg = Release|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Release|Win32.Build.0 = Release|Win32
+		{8416A370-8285-4185-BC4E-6C381BDBA9BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8416A370-8285-4185-BC4E-6C381BDBA9BE}.Debug|Win32.Build.0 = Debug|Win32
+		{8416A370-8285-4185-BC4E-6C381BDBA9BE}.Release|Win32.ActiveCfg = Release|Win32
+		{8416A370-8285-4185-BC4E-6C381BDBA9BE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28063485-5E2E-4DE0-AF6A-0C4CDBA21BFC} = {00C6CA93-0BFC-4F9A-A828-AF2DF5E1ADBD}
+		{87BFC0CB-DDCA-44BC-9377-010CCF146233} = {1211AEBE-CFA7-4FC6-ACBE-782D35EF8220}
+		{6F846856-66FF-41DA-986A-67814913285F} = {1211AEBE-CFA7-4FC6-ACBE-782D35EF8220}
+		{B7A92880-D213-4D8E-ACDA-0B01A4D565A2} = {1211AEBE-CFA7-4FC6-ACBE-782D35EF8220}
+		{8416A370-8285-4185-BC4E-6C381BDBA9BE} = {5C71F623-0470-4C54-B2BD-91293E94A981}
+	EndGlobalSection
+EndGlobal

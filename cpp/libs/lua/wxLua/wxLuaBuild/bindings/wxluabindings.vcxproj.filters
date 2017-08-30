@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{21FA7705-5862-39D1-ADA2-F8B3DFC08099}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxlua_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxluadebugger_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxmedia_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxnet_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxpropgrid_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxrichtext_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxstc_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxxml_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxxrc_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxluabindings.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxadv_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxaui_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxbase_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxcore_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxdatatypes_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxgl_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\CMakeFiles\5073ff5feb229ca408d1bf20db758c88\wxLuaBind_wxhtml_rules.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </None>
+    <None Include="..\..\bindings\wxwidgets\wxcore_sizer.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_windows.i" />
+    <None Include="..\..\bindings\wxwidgets\wxdatatypes_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxgl_gl.i" />
+    <None Include="..\..\bindings\wxwidgets\wxgl_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxhtml_html.i" />
+    <None Include="..\..\bindings\wxwidgets\wxhtml_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxmedia_media.i" />
+    <None Include="..\..\bindings\wxwidgets\wxmedia_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxnet_net.i" />
+    <None Include="..\..\bindings\wxwidgets\wxnet_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxpropgrid_propgrid.i" />
+    <None Include="..\..\bindings\wxwidgets\wxpropgrid_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxrichtext_richtext.i" />
+    <None Include="..\..\bindings\wxwidgets\wxrichtext_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxstc_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxstc_stc.i" />
+    <None Include="..\..\bindings\wxwidgets\wxxml_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxxml_xml.i" />
+    <None Include="..\..\bindings\wxwidgets\wxxrc_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxxrc_xrc.i" />
+    <None Include="..\..\bindings\wxwidgets\wx_datatypes.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxadv_adv.i" />
+    <None Include="..\..\bindings\wxwidgets\wxadv_grid.i" />
+    <None Include="..\..\bindings\wxwidgets\wxadv_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxaui_aui.i" />
+    <None Include="..\..\bindings\wxwidgets\wxaui_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxbase_base.i" />
+    <None Include="..\..\bindings\wxwidgets\wxbase_config.i" />
+    <None Include="..\..\bindings\wxwidgets\wxbase_data.i" />
+    <None Include="..\..\bindings\wxwidgets\wxbase_datetime.i" />
+    <None Include="..\..\bindings\wxwidgets\wxbase_file.i" />
+    <None Include="..\..\bindings\wxwidgets\wxbase_rules.lua" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_appframe.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_clipdrag.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_controls.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_core.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_defsutils.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_dialogs.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_event.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_gdi.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_geometry.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_help.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_image.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_mdi.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_menutool.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_picker.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_print.i" />
+    <None Include="..\..\bindings\wxwidgets\wxcore_rules.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\bindings\wxwidgets\wxhtml_override.hpp" />
+    <ClInclude Include="..\..\bindings\wxwidgets\wxnet_override.hpp" />
+    <ClInclude Include="..\..\bindings\wxwidgets\wxstc_override.hpp" />
+    <ClInclude Include="..\..\bindings\wxwidgets\wxxml_override.hpp" />
+    <ClInclude Include="..\..\bindings\wxwidgets\wxadv_override.hpp" />
+    <ClInclude Include="..\..\bindings\wxwidgets\wxbase_override.hpp" />
+    <ClInclude Include="..\..\bindings\wxwidgets\wxcore_override.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\bindings\wxwidgets\wxclassref.txt" />
+  </ItemGroup>
+</Project>

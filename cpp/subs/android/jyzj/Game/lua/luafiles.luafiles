@@ -1,0 +1,22 @@
+lua = 
+{
+	[[main.lua]];
+	[[StatesInfo.lua]];
+	[[mycmd.lua]];
+};
+lua_ = 
+{
+	lua = 
+	{
+		wgscript = 
+		{
+			[[sa_command.lua]];
+			[[s_command.lua]];
+			[[sa_cmncfg.lua]];
+			[[s_cmncfg.lua]];
+			[[dm_command.lua]];
+			[[dm_cmncfg.lua]];
+			[[s_StateResolver.lua]];
+		};
+	};
+};

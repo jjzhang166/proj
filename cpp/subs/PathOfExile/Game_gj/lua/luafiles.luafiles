@@ -1,0 +1,16 @@
+lua = 
+{
+	[[main.lua]];
+	[[mycmd.lua]];
+};
+lua_ = 
+{
+	["lua"] = 
+	{
+		["wgscript"] = 
+		{
+			[[s_command.lua]];
+			[[s_cmncfg.lua]];
+		};
+	};
+};

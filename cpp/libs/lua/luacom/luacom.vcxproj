@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="luacom.h" />
+    <ClInclude Include="src\library\LuaAux.h" />
+    <ClInclude Include="src\library\luabeans.h" />
+    <ClInclude Include="src\library\LuaCompat.h" />
+    <ClInclude Include="src\library\luacom_internal.h" />
+    <ClInclude Include="src\library\tCOMUtil.h" />
+    <ClInclude Include="src\library\tLuaCOM.h" />
+    <ClInclude Include="src\library\tLuaCOMClassFactory.h" />
+    <ClInclude Include="src\library\tLuaCOMConnPoints.h" />
+    <ClInclude Include="src\library\tLuaCOMEnumerator.h" />
+    <ClInclude Include="src\library\tLuaCOMException.h" />
+    <ClInclude Include="src\library\tLuaCOMTypeHandler.h" />
+    <ClInclude Include="src\library\tLuaControl.h" />
+    <ClInclude Include="src\library\tLuaDispatch.h" />
+    <ClInclude Include="src\library\tLuaObject.h" />
+    <ClInclude Include="src\library\tLuaObjList.h" />
+    <ClInclude Include="src\library\tLuaTLB.h" />
+    <ClInclude Include="src\library\tLuaVector.h" />
+    <ClInclude Include="src\library\tStringBuffer.h" />
+    <ClInclude Include="src\library\tUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\library\LuaAux.cpp" />
+    <ClCompile Include="src\library\luabeans.cpp" />
+    <ClCompile Include="src\library\luacom.cpp" />
+    <ClCompile Include="src\library\LuaCompat.cpp" />
+    <ClCompile Include="src\library\tCOMUtil.cpp" />
+    <ClCompile Include="src\library\tLuaCOM.cpp" />
+    <ClCompile Include="src\library\tLuaCOMClassFactory.cpp" />
+    <ClCompile Include="src\library\tLuaCOMConnPoints.cpp" />
+    <ClCompile Include="src\library\tLuaCOMEnumerator.cpp" />
+    <ClCompile Include="src\library\tLuaCOMException.cpp" />
+    <ClCompile Include="src\library\tLuaCOMTypeHandler.cpp" />
+    <ClCompile Include="src\library\tLuaControl.cpp" />
+    <ClCompile Include="src\library\tLuaDispatch.cpp" />
+    <ClCompile Include="src\library\tLuaObject.cpp" />
+    <ClCompile Include="src\library\tLuaObjList.cpp" />
+    <ClCompile Include="src\library\tLuaTLB.cpp" />
+    <ClCompile Include="src\library\tLuaVector.cpp" />
+    <ClCompile Include="src\library\tStringBuffer.cpp" />
+    <ClCompile Include="src\library\tUtil.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{22859360-623F-4A90-A9F3-EA691D762B20}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>luacom</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\libsetup.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\libsetup.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir);$(ProjectDir)../;$(ProjectDir)../lua;$(ProjectDir)src/library;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)../lib</OutDir>
+    <TargetName>luacomd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir);$(ProjectDir)../;$(ProjectDir)../lua;$(ProjectDir)src/library;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)../lib</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;LUA_DEBUGGING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

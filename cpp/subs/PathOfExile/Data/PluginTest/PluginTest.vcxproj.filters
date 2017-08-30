@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CD_CommonFiles">
+      <UniqueIdentifier>{5baf84cc-f96a-4f04-af33-95e63caa4bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CD_CommonFiles\Data">
+      <UniqueIdentifier>{c59ee2fe-bb78-4a74-aeb6-bbed97986595}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_Structs.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_Updates.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_UsefulFns.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_Vtbl.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_Const.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_FuncCall.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_Offset.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_ProtocolR.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_ProtocolS.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_Serialize.hpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_Interface.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_StructBase.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_CommonFiles\Data\CD_Data.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_CommonFiles\Data\CD_UsefulFns.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_CommonFiles\Data\CD_FuncCall.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_CommonFiles\Data\CD_Structs.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_CommonFiles\Data\CD_ProtocolS.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_CommonFiles\Data\CD_Interface.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_CommonFiles\Data\CD_ProtocolR.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_CommonFiles\Data\CD_StructBase.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

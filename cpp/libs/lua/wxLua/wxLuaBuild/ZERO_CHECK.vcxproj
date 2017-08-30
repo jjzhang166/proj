@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{EF559F6D-FB85-3CDC-AF0C-7D72A364AF6E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\45f34978fa119ce2789db2cae8d3c97b\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+F:\tools\CMake\bin\cmake.exe -HF:/proj/lua/wxLua -BF:/proj/lua/wxLua/wxLuaBuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/45f34978fa119ce2789db2cae8d3c97b/generate.stamp.rule;F:\proj\lua\wxLua\CMakeLists.txt;F:\proj\lua\wxLua\apps\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxlua\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluacan\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluaedit\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluafreeze\CMakeLists.txt;F:\proj\lua\wxLua\bindings\CMakeLists.txt;F:\proj\lua\wxLua\build\CMakeFunctions.cmake;F:\proj\lua\wxLua\build\CMakeProject.cmake;F:\proj\lua\wxLua\build\CMakewxAppLib.cmake;F:\proj\lua\wxLua\build\FindPackageHandleStandardArgs.cmake;F:\proj\lua\wxLua\build\FindwxWidgets.cmake;F:\proj\lua\wxLua\modules\CMakeLists.txt;F:\proj\lua\wxLua\modules\lua-5.1\CMakeLists.txt;F:\proj\lua\wxLua\modules\luamodule\CMakeLists.txt;F:\proj\lua\wxLua\modules\luaproxydll\lua5.1.dll;F:\proj\lua\wxLua\modules\luaproxydll\lua51.dll;F:\proj\lua\wxLua\modules\wxbind\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\debug\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\debugger\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxstedit\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxstedit\build\CMakeProject.cmake;F:\proj\lua\wxLua\modules\wxstedit\build\CMakewxAppLib.cmake;F:\proj\lua\wxLua\modules\wxstedit\include\wx\stedit\setup0.h;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeCCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeSystem.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CPack.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindDoxygen.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;F:\tools\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;F:\tools\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxstedit\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\lua-5.1\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxbind\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\debug\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\debugger\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\luamodule\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxlua\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluacan\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluaedit\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluafreeze\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+F:\tools\CMake\bin\cmake.exe -HF:/proj/lua/wxLua -BF:/proj/lua/wxLua/wxLuaBuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/45f34978fa119ce2789db2cae8d3c97b/generate.stamp.rule;F:\proj\lua\wxLua\CMakeLists.txt;F:\proj\lua\wxLua\apps\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxlua\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluacan\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluaedit\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluafreeze\CMakeLists.txt;F:\proj\lua\wxLua\bindings\CMakeLists.txt;F:\proj\lua\wxLua\build\CMakeFunctions.cmake;F:\proj\lua\wxLua\build\CMakeProject.cmake;F:\proj\lua\wxLua\build\CMakewxAppLib.cmake;F:\proj\lua\wxLua\build\FindPackageHandleStandardArgs.cmake;F:\proj\lua\wxLua\build\FindwxWidgets.cmake;F:\proj\lua\wxLua\modules\CMakeLists.txt;F:\proj\lua\wxLua\modules\lua-5.1\CMakeLists.txt;F:\proj\lua\wxLua\modules\luamodule\CMakeLists.txt;F:\proj\lua\wxLua\modules\luaproxydll\lua5.1.dll;F:\proj\lua\wxLua\modules\luaproxydll\lua51.dll;F:\proj\lua\wxLua\modules\wxbind\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\debug\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\debugger\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxstedit\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxstedit\build\CMakeProject.cmake;F:\proj\lua\wxLua\modules\wxstedit\build\CMakewxAppLib.cmake;F:\proj\lua\wxLua\modules\wxstedit\include\wx\stedit\setup0.h;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeCCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeSystem.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CPack.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindDoxygen.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;F:\tools\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;F:\tools\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxstedit\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\lua-5.1\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxbind\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\debug\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\debugger\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\luamodule\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxlua\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluacan\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluaedit\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluafreeze\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+F:\tools\CMake\bin\cmake.exe -HF:/proj/lua/wxLua -BF:/proj/lua/wxLua/wxLuaBuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/45f34978fa119ce2789db2cae8d3c97b/generate.stamp.rule;F:\proj\lua\wxLua\CMakeLists.txt;F:\proj\lua\wxLua\apps\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxlua\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluacan\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluaedit\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluafreeze\CMakeLists.txt;F:\proj\lua\wxLua\bindings\CMakeLists.txt;F:\proj\lua\wxLua\build\CMakeFunctions.cmake;F:\proj\lua\wxLua\build\CMakeProject.cmake;F:\proj\lua\wxLua\build\CMakewxAppLib.cmake;F:\proj\lua\wxLua\build\FindPackageHandleStandardArgs.cmake;F:\proj\lua\wxLua\build\FindwxWidgets.cmake;F:\proj\lua\wxLua\modules\CMakeLists.txt;F:\proj\lua\wxLua\modules\lua-5.1\CMakeLists.txt;F:\proj\lua\wxLua\modules\luamodule\CMakeLists.txt;F:\proj\lua\wxLua\modules\luaproxydll\lua5.1.dll;F:\proj\lua\wxLua\modules\luaproxydll\lua51.dll;F:\proj\lua\wxLua\modules\wxbind\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\debug\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\debugger\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxstedit\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxstedit\build\CMakeProject.cmake;F:\proj\lua\wxLua\modules\wxstedit\build\CMakewxAppLib.cmake;F:\proj\lua\wxLua\modules\wxstedit\include\wx\stedit\setup0.h;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeCCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeSystem.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CPack.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindDoxygen.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;F:\tools\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;F:\tools\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxstedit\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\lua-5.1\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxbind\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\debug\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\debugger\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\luamodule\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxlua\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluacan\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluaedit\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluafreeze\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+F:\tools\CMake\bin\cmake.exe -HF:/proj/lua/wxLua -BF:/proj/lua/wxLua/wxLuaBuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/45f34978fa119ce2789db2cae8d3c97b/generate.stamp.rule;F:\proj\lua\wxLua\CMakeLists.txt;F:\proj\lua\wxLua\apps\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxlua\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluacan\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluaedit\CMakeLists.txt;F:\proj\lua\wxLua\apps\wxluafreeze\CMakeLists.txt;F:\proj\lua\wxLua\bindings\CMakeLists.txt;F:\proj\lua\wxLua\build\CMakeFunctions.cmake;F:\proj\lua\wxLua\build\CMakeProject.cmake;F:\proj\lua\wxLua\build\CMakewxAppLib.cmake;F:\proj\lua\wxLua\build\FindPackageHandleStandardArgs.cmake;F:\proj\lua\wxLua\build\FindwxWidgets.cmake;F:\proj\lua\wxLua\modules\CMakeLists.txt;F:\proj\lua\wxLua\modules\lua-5.1\CMakeLists.txt;F:\proj\lua\wxLua\modules\luamodule\CMakeLists.txt;F:\proj\lua\wxLua\modules\luaproxydll\lua5.1.dll;F:\proj\lua\wxLua\modules\luaproxydll\lua51.dll;F:\proj\lua\wxLua\modules\wxbind\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\debug\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxlua\debugger\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxstedit\CMakeLists.txt;F:\proj\lua\wxLua\modules\wxstedit\build\CMakeProject.cmake;F:\proj\lua\wxLua\modules\wxstedit\build\CMakewxAppLib.cmake;F:\proj\lua\wxLua\modules\wxstedit\include\wx\stedit\setup0.h;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeCCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CMakeSystem.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CPack.cmake;F:\tools\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindDoxygen.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;F:\tools\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;F:\tools\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;F:\tools\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;F:\tools\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxstedit\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\lua-5.1\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxbind\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\debug\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\wxlua\debugger\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\modules\luamodule\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxlua\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluacan\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluaedit\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\apps\wxluafreeze\CMakeFiles\generate.stamp;F:\proj\lua\wxLua\wxLuaBuild\bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

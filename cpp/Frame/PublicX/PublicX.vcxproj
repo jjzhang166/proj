@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9D2D7037-7A46-4002-AE76-163E9CBF73EE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PublicX</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\setup.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\setup.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)../Libs\</OutDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <TargetName>PublicX_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)../Libs\</OutDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <TargetName>PublicX</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonX\CmnX_Allocator.h" />
+    <ClInclude Include="CommonX\CmnX_Container.h" />
+    <ClInclude Include="CommonX\CmnX_DllApi.h" />
+    <ClInclude Include="CommonX\CmnX_HeapAlgoMacro.h" />
+    <ClInclude Include="CommonX\CmnX_HookerMore.h" />
+    <ClInclude Include="CommonX\CmnX_Lock.h" />
+    <ClInclude Include="CommonX\CmnX_Math.h" />
+    <ClInclude Include="CommonX\CmnX_StaticConts.h" />
+    <ClInclude Include="CommonX\CmnX_TaskQueue.h" />
+    <ClInclude Include="CommonX\CmnX_UsefulClass.h" />
+    <ClInclude Include="CommonX\CmnX_UsefulFunc.h" />
+    <ClInclude Include="DependSelfLib.h" />
+    <ClInclude Include="math\CmnGeometry.h" />
+    <ClInclude Include="math\GraphForm.h" />
+    <ClInclude Include="ProtocolX\P_BaseTypeX.h" />
+    <ClInclude Include="ProtocolX\P_DefinesX.h" />
+    <ClInclude Include="ProtocolX\P_Value.h" />
+    <ClInclude Include="RStd\RBitset.h" />
+    <ClInclude Include="RStd\RContTest.h" />
+    <ClInclude Include="RStd\RDeque.h" />
+    <ClInclude Include="RStd\RHash_map.h" />
+    <ClInclude Include="RStd\RHash_set.h" />
+    <ClInclude Include="RStd\RList.h" />
+    <ClInclude Include="RStd\RMap.h" />
+    <ClInclude Include="RStd\RQueue.h" />
+    <ClInclude Include="RStd\RSet.h" />
+    <ClInclude Include="RStd\RStack.h" />
+    <ClInclude Include="RStd\RString.h" />
+    <ClInclude Include="RStd\RVector.h" />
+    <ClInclude Include="RStd\RXhash.h" />
+    <ClInclude Include="RStd\RXstring.h" />
+    <ClInclude Include="RStd\RXtree.h" />
+    <ClInclude Include="RStd\RXutility.h" />
+    <ClInclude Include="RStd\RYvals.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StdEx\AlgorithmEx.h" />
+    <ClInclude Include="StdEx\DequeEx.h" />
+    <ClInclude Include="StdEx\QueueEx.h" />
+    <ClInclude Include="StdEx\RttiEx.h" />
+    <ClInclude Include="StdEx\TString.h" />
+    <ClInclude Include="StdEx\VectorEx.h" />
+    <ClInclude Include="StdEx\XstddefEx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\CommonX\CmnX_Allocator.cpp" />
+    <ClCompile Include="Src\CommonX\CmnX_DllApi.cpp" />
+    <ClCompile Include="Src\CommonX\CmnX_HookerMore.cpp" />
+    <ClCompile Include="Src\CommonX\CmnX_Lock.cpp" />
+    <ClCompile Include="Src\CommonX\CmnX_Math.cpp" />
+    <ClCompile Include="Src\CommonX\CmnX_TaskQueue.cpp" />
+    <ClCompile Include="Src\CommonX\CmnX_UsefulClass.cpp" />
+    <ClCompile Include="Src\CommonX\CmnX_UsefulFunc.cpp" />
+    <ClCompile Include="Src\ProtocolX\P_DefinesX.cpp" />
+    <ClCompile Include="Src\RStd\RContTest.cpp" />
+    <ClCompile Include="Src\StdEx\RttiEx.cpp" />
+    <ClCompile Include="Src\StdEx\TString.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExternLib\ExternLib.vcxproj">
+      <Project>{434f7abc-f0c2-4172-a5a1-dec5371edbd1}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

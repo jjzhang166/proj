@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+F:/proj/lua/wxLua/modules/wxstedit/CMakeLists.txt
+F:/proj/lua/wxLua/modules/wxstedit/build/CMakeProject.cmake
+F:/proj/lua/wxLua/modules/wxstedit/build/CMakewxAppLib.cmake
+F:/tools/CMake/share/cmake-3.6/Modules/UsewxWidgets.cmake
+F:/tools/CMake/share/cmake-3.6/Modules/FindDoxygen.cmake
+F:/tools/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+F:/tools/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+F:/tools/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+F:/proj/lua/wxLua/modules/wxstedit/include/wx/stedit/setup0.h

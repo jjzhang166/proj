@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="libsetup.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros">
+    <zhpProjRootDir>f:/proj/</zhpProjRootDir>
+    <zhpCppDir>$(zhpProjRootDir)cpp/</zhpCppDir>
+    <zhpFrameDir>$(zhpCppDir)Frame/</zhpFrameDir>
+    <zhpLibsDir>$(zhpCppDir)libs/</zhpLibsDir>
+    <zhpSubsDir>$(zhpCppDir)subs/</zhpSubsDir>
+    <zhpAppsDir>$(zhpCppDir)apps/</zhpAppsDir>
+    <zhpToolsDir>$(zhpCppDir)tools/</zhpToolsDir>
+    <ConfigurationType_>$(ConfigurationType)</ConfigurationType_>
+    <ProjectDir_>$(ProjectDir)</ProjectDir_>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludePath>$(ProjectDir);$(SolutionDir);$(zhpFrameDir)ExternLib;$(zhpFrameDir)PublicX;$(zhpFrameDir)PubMix;$(zhpFrameDir)Public;$(zhpFrameDir)CmnLpk;$(zhpFrameDir);$(zhpLibsDir);$(zhpLibsDir)lua;$(zhpLibsDir)POCO/Foundation/Include;$(zhpLibsDir)POCO/Net/Include;$(zhpLibsDir)POCO/Data/Include;$(zhpLibsDir)POCO/Data/ODBC/Include;$(zhpLibsDir)POCO/Crypto/Include;$(zhpLibsDir)openssl/include;$(zhpLibsDir)wxWidgets/include;$(zhpLibsDir)wxWidgets/include/msvc;$(zhpLibsDir)lua/wxLua/modules;$(zhpCppDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(zhpFrameDir)Libs;$(zhpFrameDir)ExternLib/lib;$(zhpLibsDir)boost_lib;$(zhpLibsDir)lua/lib;$(zhpLibsDir)POCO/lib;$(zhpLibsDir)openssl/_out32;$(zhpLibsDir)wxWidgets/lib/vc_lib;$(zhpCppDir);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <PreBuildEvent>
+      <Command>python $(zhpProjRootDir)python/ForFrame/PreBuild.py</Command>
+    </PreBuildEvent>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(zhpFrameDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <IgnoreSpecificDefaultLibraries>gdiplus.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="zhpProjRootDir">
+      <Value>$(zhpProjRootDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="zhpCppDir">
+      <Value>$(zhpCppDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="zhpFrameDir">
+      <Value>$(zhpFrameDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="zhpLibsDir">
+      <Value>$(zhpLibsDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="zhpSubsDir">
+      <Value>$(zhpSubsDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="zhpAppsDir">
+      <Value>$(zhpAppsDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="zhpToolsDir">
+      <Value>$(zhpToolsDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ConfigurationType_">
+      <Value>$(ConfigurationType_)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="ProjectDir_">
+      <Value>$(ProjectDir_)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

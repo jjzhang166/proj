@@ -1,0 +1,12 @@
+local cdi = CD_Interface
+--cdi.DebugStateInfo()
+--cdi.DebugSendPacket()
+--cdi.DebugPlayerInfo()
+--cdi.DebugPlayerEntityInfo()
+--cdi.DebugWorldInfo()
+--cdi.DebugGameBaseWndInfo()
+--cdi.DebugPlayerPosInfo()
+--cdi.DebugEntityObjs(-1)
+--cdi.DebugPassiveSkill()
+--cdi.DebugDbPassiveSkill()
+cdi.DebugInventoryItems(1)

@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="detail">
+      <UniqueIdentifier>{3483c240-b511-4908-9297-47455af35053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="detail\calc_arity.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\call.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\call_function.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\call_member.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\call_operator_iterate.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\class_cache.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\class_registry.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\class_rep.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\compute_score.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\constructor.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\conversion_storage.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\convert_to_lua.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\debug.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\decorate_type.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\deduce_signature.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\enum_maker.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\format_signature.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\garbage_collector.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\has_get_pointer.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\inheritance.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\instance_holder.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\is_indirect_const.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\link_compatibility.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\make_instance.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\most_derived.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\object_call.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\object_funs.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\object_rep.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\open.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\operator_id.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\other.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\pcall.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\pointee_sizeof.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\pointee_typeid.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\policy.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\primitives.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\property.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\ref.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\signature_match.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\stack_utils.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\typetraits.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\yes_no.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="prefix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="raw_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="return_reference_to_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scope.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared_ptr_converter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tag_function.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="value_wrapper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="weak_ref.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wrapper_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="yield_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adopt_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="back_reference.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="back_reference_fwd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class_info.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="container_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="copy_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="discard_result_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exception_handler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="from_stack.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="function.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="get_main_thread.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="get_pointer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="handle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_include.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="luabind.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="make_function.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nil.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="open.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="operator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="out_value_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaBase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\FromLuaHandle.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakSelf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="raw_call_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unpack_call.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\class.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\class_info.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\class_registry.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\class_rep.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\create_class.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\error.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\exception_handler.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\function.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\inheritance.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\link_compatibility.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\object_rep.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\open.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pcall.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\scope.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\stack_content_by_name.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\weak_ref.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\wrapper_base.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LuaBase.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FromLuaHandle.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

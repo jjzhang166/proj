@@ -1,0 +1,46 @@
+lua = 
+{
+	[[main.lua]];
+	[[MyCfg.lua]];
+	[[MyFrm.lua]];
+	[[MyPages.lua]];
+	[[mainio.lua]];
+};
+lua_ = 
+{
+	["lua"] = 
+	{
+		["wgframe"] = 
+		{
+			[[frmcmn.lua]];
+			[[consolecfg.lua]];
+			[[cmncfg.lua]];
+			[[cfgfactory.lua]];
+			[[mainfrm.lua]];
+			[[frmfactory.lua]];
+			[[FrmStatusBar.lua]];
+			[[FrmMenuBar.lua]];
+			[[AcList.lua]];
+			[[FrmMidArea.lua]];
+			[[FrmHeaderCtrl.lua]];
+			[[BasicSetting.lua]];
+			[[FrmDlg.lua]];
+			[[loginio.lua]];
+			["pub"] = 
+			{
+				[[loginui_p.lua]];
+				[[mainfrm_p.lua]];
+				[[frmfactory_p.lua]];
+				[[FrmStatusBar_p.lua]];
+				[[FrmMenuBar_p.lua]];
+				[[cfgfactory_p.lua]];
+				[[BasicSetting_p.lua]];
+			};
+		};
+		["common"] = 
+		{
+			[[CmnBase.lua]];
+			[[WxCmn.lua]];
+		};
+	};
+};

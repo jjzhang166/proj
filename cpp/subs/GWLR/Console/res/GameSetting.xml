@@ -1,0 +1,24 @@
+﻿<default>
+    <Dlg_FullScreen_Chk>1</Dlg_FullScreen_Chk>
+    <Dlg_ScreenResolution_Combo>1024*768</Dlg_ScreenResolution_Combo>
+    <Dlg_Driver_Combo>DIRECTX</Dlg_Driver_Combo>
+    <Dlg_ColorPrecison_Combo>24位色</Dlg_ColorPrecison_Combo>
+    <Dlg_FontType_Combo>XX字体</Dlg_FontType_Combo>
+    <Dlg_UserType_Combo>家庭办公用户</Dlg_UserType_Combo>
+    <Dlg_ExpSlider1_Slider>5</Dlg_ExpSlider1_Slider>
+    <Excluder1>C1_SettingExample1_radio3_radio</Excluder1>
+</default>
+<last>
+    <Dlg_FullScreen_Chk>1</Dlg_FullScreen_Chk>
+    <Dlg_ScreenResolution_Combo>1024*768</Dlg_ScreenResolution_Combo>
+    <Dlg_Driver_Combo>DIRECTX</Dlg_Driver_Combo>
+    <Dlg_ColorPrecison_Combo>24位色</Dlg_ColorPrecison_Combo>
+    <Dlg_FontType_Combo>XX字体</Dlg_FontType_Combo>
+    <Dlg_UserType_Combo>家庭办公用户</Dlg_UserType_Combo>
+    <Dlg_ExpSlider1_Slider>5</Dlg_ExpSlider1_Slider>
+    <Excluder1>C1_SettingExample1_radio3_radio</Excluder1>
+</last>
+<Setting>
+    <C1_SetFullScreen_Chk>0</C1_SetFullScreen_Chk>
+    <C1_Setmoviemode_ChkC>0</C1_Setmoviemode_ChkC>
+</Setting>

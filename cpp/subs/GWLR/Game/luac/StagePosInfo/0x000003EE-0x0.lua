@@ -1,0 +1,45 @@
+stage_pos_mgr = GSP_StagePosPath_Me()
+pos_info = GSP__PosInfo()
+room_info = GSP__RoomInfo()
+
+-- 坐标节点
+pos_info:AddVertex(13,3466.982422,378.494446,85.468147)
+pos_info:AddVertex(12,3473.472656,381.086426,85.339127)
+pos_info:AddVertex(11,3482.063477,376.966156,85.316467)
+pos_info:AddVertex(10,3476.049561,375.151367,85.312752)
+pos_info:AddVertex(9,3470.155518,372.943939,85.312752)
+pos_info:AddVertex(8,3463.942871,371.969116,85.375961)
+pos_info:AddVertex(7,3458.909180,375.365143,85.375000)
+pos_info:AddVertex(6,3460.775635,381.096008,85.288261)
+pos_info:AddVertex(5,3464.681641,385.901367,85.312500)
+pos_info:AddVertex(4,3470.796387,387.679810,85.307678)
+pos_info:AddVertex(3,3477.070557,388.145508,85.312500)
+pos_info:AddVertex(2,3482.515137,385.571655,85.336853)
+pos_info:AddVertex(1,3486.674316,380.521271,85.341110)
+
+--坐标链接
+pos_info:AddEdge(13,5)
+pos_info:AddEdge(13,12)
+pos_info:AddEdge(12,2)
+pos_info:AddEdge(11,2)
+pos_info:AddEdge(11,1)
+pos_info:AddEdge(11,10)
+pos_info:AddEdge(10,12)
+pos_info:AddEdge(10,9)
+pos_info:AddEdge(9,13)
+pos_info:AddEdge(9,8)
+pos_info:AddEdge(8,7)
+pos_info:AddEdge(7,13)
+pos_info:AddEdge(7,6)
+pos_info:AddEdge(6,5)
+pos_info:AddEdge(5,4)
+pos_info:AddEdge(4,12)
+pos_info:AddEdge(4,3)
+pos_info:AddEdge(3,2)
+pos_info:AddEdge(2,1)
+
+--房间
+room_info:AddPosInfo(0,pos_info)
+
+--副本模板
+stage_pos_mgr:AddStageInfo(0x000003EE,room_info)

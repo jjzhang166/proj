@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{cd0390a9-36ee-4834-8019-5aae4ae12b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\HideClasses">
+      <UniqueIdentifier>{a2610e3f-cc31-4f4e-b9ff-e1f94df55346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HideClasses">
+      <UniqueIdentifier>{0e89668b-76e1-41d0-aeae-126d11ee8c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BufCall">
+      <UniqueIdentifier>{c7937887-872c-405e-9e41-38e8040cc0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\BufCall">
+      <UniqueIdentifier>{e68bc3ab-43e8-47f2-b433-81f3441c4b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BufCall\Detail">
+      <UniqueIdentifier>{423ed24a-7700-4f7f-b4f7-6d9c69b722ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\BufCall\Detail">
+      <UniqueIdentifier>{9e2a888f-2897-45c4-820d-d8ee78effcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CmnAntiCheck">
+      <UniqueIdentifier>{40a9b8cf-49b0-4337-a6ee-28b3e0295174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\CmnAntiCheck">
+      <UniqueIdentifier>{30d611b4-874c-40a3-94ee-5fbd00a05789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppBase">
+      <UniqueIdentifier>{bbc13ff5-945f-4eb3-8107-6f7ae11a3ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\AppBase">
+      <UniqueIdentifier>{1a502b1c-1928-4e4a-9f2a-81188eeb5b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CmnMix">
+      <UniqueIdentifier>{2ca8ff09-c83e-48f5-8513-7d9285215b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\CmnMix">
+      <UniqueIdentifier>{b24d51e5-ba58-4751-bd9a-f84999a6fb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AtpMix">
+      <UniqueIdentifier>{716afe64-baeb-460e-bb91-a6db05f443b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\AtpMix">
+      <UniqueIdentifier>{f8162853-371c-4019-babf-6ee47e5b2270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StringValue">
+      <UniqueIdentifier>{db76b115-704e-4890-a525-c059b37e532c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\StringValue">
+      <UniqueIdentifier>{6706d586-66ce-42cf-a564-fc5df7d31ad2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DependSelfLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DependExternLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HideClasses\APIHook.h">
+      <Filter>HideClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="HideClasses\CDetours.h">
+      <Filter>HideClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BufCall.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_Base.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_Config.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_Cont.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_DataConver.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_Function.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_Iterator.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_RegType.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_Size.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_Stream.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_TypeInfo.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\BC_TypeToString.h">
+      <Filter>BufCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\Detail\BC_DataCheck.hpp">
+      <Filter>BufCall\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\Detail\BC_CallImpl.hpp">
+      <Filter>BufCall\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="BufCall\Detail\BC_Class.h">
+      <Filter>BufCall\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnAntiCheck\CmnRbuThread.h">
+      <Filter>CmnAntiCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\Cmn_App.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\Cmn_Thrd.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\FrameEvents.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\WxLuaApp.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\CmnWxApp.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\CmnWxThrd.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\CmnCWinApp.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\CmnWxDllApp.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_Allocator.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_BinaryStream.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_BufcallFileMap.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_CharArray.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_ContTraits.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_Disasm.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_EnsureCleanup.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_Exception.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_FeatureCode.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_FileMap.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_GameObjBase.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_Hdr.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_Hooker.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_IoService.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_Iterator.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_LogOut.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_LuaOper.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_MemOper.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_PocoMore.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_RegexMore.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_TaskQueue.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_TemplateUtility.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_Toolhelp.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_TypeId.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_UsefulClass.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_UsefulFunc.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\_Cmn_LuaOperImpl.hpp">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_LuaFile.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\AutoUpdateApp.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\CmnPluginTest.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AtpMiX\AtpLogin.h">
+      <Filter>AtpMix</Filter>
+    </ClInclude>
+    <ClInclude Include="StringValue\CSV_Node.h">
+      <Filter>StringValue</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnMix\Cmn_IoTimer.h">
+      <Filter>CmnMix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HideClasses\APIHook.cpp">
+      <Filter>Src\HideClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HideClasses\CDetours.cpp">
+      <Filter>Src\HideClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BufCall\BufCall.cpp">
+      <Filter>Src\BufCall</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BufCall\BC_Stream.cpp">
+      <Filter>Src\BufCall</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BufCall\BC_TypeInfo.cpp">
+      <Filter>Src\BufCall</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BufCall\Detail\BC_Class.cpp">
+      <Filter>Src\BufCall\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnAntiCheck\CmnRbuThread.cpp">
+      <Filter>Src\CmnAntiCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AppBase\Cmn_App.cpp">
+      <Filter>Src\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AppBase\Cmn_Thrd.cpp">
+      <Filter>Src\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AppBase\FrameEvents.cpp">
+      <Filter>Src\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AppBase\WxLuaApp.cpp">
+      <Filter>Src\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AppBase\CmnWxApp.cpp">
+      <Filter>Src\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AppBase\CmnWxThrd.cpp">
+      <Filter>Src\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AppBase\CmnCWinApp.cpp">
+      <Filter>Src\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AppBase\CmnWxDllApp.cpp">
+      <Filter>Src\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_Allocator.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_BinaryStream.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_BufcallFileMap.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_CmnTypeId.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_Disasm.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_EnsureCleanup.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_Exception.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_FeatureCode.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_FileMap.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_GameObjBase.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_Hdr.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_Hooker.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_IoService.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_LogOut.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_LuaOper.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_MemOper.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_PocoMore.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_RegexMore.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_TaskQueue.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_Toolhelp.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_UsefulFunc.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_LuaFile.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AppBase\AutoUpdateApp.cpp">
+      <Filter>Src\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AppBase\CmnPluginTest.cpp">
+      <Filter>Src\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AtpMix\AtpLogin.cpp">
+      <Filter>Src\AtpMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_UsefulClass.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CmnMix\Cmn_IoTimer.cpp">
+      <Filter>Src\CmnMix</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

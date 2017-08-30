@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Const.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Data.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_FuncCall.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Interface.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Offset.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_ProtocolR.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_ProtocolS.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Serialize.hpp" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_StructBase.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Structs.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Updates_gj.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_UsefulFns.h" />
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Vtbl.h" />
+    <ClInclude Include="..\Data\public\CG_Public.h" />
+    <ClInclude Include="..\Game\DllApp.h" />
+    <ClInclude Include="..\Game\Facility\GActions.h" />
+    <ClInclude Include="..\Game\Facility\GameObj.h" />
+    <ClInclude Include="..\Game\Facility\GameObjMgr.h" />
+    <ClInclude Include="..\Game\Facility\GClass.h" />
+    <ClInclude Include="..\Game\Facility\GConst.h" />
+    <ClInclude Include="..\Game\Facility\GInterface.h" />
+    <ClInclude Include="..\Game\Facility\GItem.h" />
+    <ClInclude Include="..\Game\Facility\GMap.h" />
+    <ClInclude Include="..\Game\Facility\GMonster.h" />
+    <ClInclude Include="..\Game\Facility\GNpc.h" />
+    <ClInclude Include="..\Game\Facility\GObjFilter.h" />
+    <ClInclude Include="..\Game\Facility\GPackageItemBase.h" />
+    <ClInclude Include="..\Game\Facility\GPackageItemFilter.h" />
+    <ClInclude Include="..\Game\Facility\GPlayer.h" />
+    <ClInclude Include="..\Game\Facility\GProtocolR.h" />
+    <ClInclude Include="..\Game\Facility\GProtocolS.h" />
+    <ClInclude Include="..\Game\Facility\GSkill.h" />
+    <ClInclude Include="..\Game\Facility\GTask.h" />
+    <ClInclude Include="..\Game\Facility\GType.h" />
+    <ClInclude Include="..\Game\GloFuncs.h" />
+    <ClInclude Include="..\Game\Scmd.h" />
+    <ClInclude Include="..\Game\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_FuncCall.cpp" />
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_Interface.cpp" />
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_ProtocolR.cpp" />
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_ProtocolS.cpp" />
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_StructBase.cpp" />
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_Structs.cpp" />
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_UsefulFns.cpp" />
+    <ClCompile Include="..\Game\CSV_Node.cpp" />
+    <ClCompile Include="..\Game\DllApp.cpp" />
+    <ClCompile Include="..\Game\Facility\GActions.cpp" />
+    <ClCompile Include="..\Game\Facility\GameObj.cpp" />
+    <ClCompile Include="..\Game\Facility\GameObjMgr.cpp" />
+    <ClCompile Include="..\Game\Facility\GClass.cpp" />
+    <ClCompile Include="..\Game\Facility\GConst.cpp" />
+    <ClCompile Include="..\Game\Facility\GInterface.cpp" />
+    <ClCompile Include="..\Game\Facility\GItem.cpp" />
+    <ClCompile Include="..\Game\Facility\GMap.cpp" />
+    <ClCompile Include="..\Game\Facility\GMonster.cpp" />
+    <ClCompile Include="..\Game\Facility\GNpc.cpp" />
+    <ClCompile Include="..\Game\Facility\GObjFilter.cpp" />
+    <ClCompile Include="..\Game\Facility\GPackageItemBase.cpp" />
+    <ClCompile Include="..\Game\Facility\GPackageItemFilter.cpp" />
+    <ClCompile Include="..\Game\Facility\GPlayer.cpp" />
+    <ClCompile Include="..\Game\Facility\GProtocolR.cpp" />
+    <ClCompile Include="..\Game\Facility\GProtocolS.cpp" />
+    <ClCompile Include="..\Game\Facility\GSkill.cpp" />
+    <ClCompile Include="..\Game\Facility\GTask.cpp" />
+    <ClCompile Include="..\Game\Game.cpp" />
+    <ClCompile Include="..\Game\GloFuncs.cpp" />
+    <ClCompile Include="..\Game\P_Value.cpp" />
+    <ClCompile Include="..\Game\Scmd.cpp" />
+    <ClCompile Include="..\Game\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4BB2444C-14C9-4422-88AB-E9C4B02CCBF0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\setup.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\setup.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)../Data;$(SolutionDir)Game;$(IncludePath)</IncludePath>
+    <TargetName>gl</TargetName>
+    <OutDir>$(SolutionDir)gjp_d\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)../Data;$(SolutionDir)Game;$(IncludePath)</IncludePath>
+    <TargetName>gl</TargetName>
+    <OutDir>$(SolutionDir)gjp_r\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;VER_GJ_;VER_GJ3_;VER_GJP_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>
+      </StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;__RELEASE_LOG_INFO_;VER_GJ_;VER_GJ3_;VER_GJP_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <StackReserveSize>
+      </StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

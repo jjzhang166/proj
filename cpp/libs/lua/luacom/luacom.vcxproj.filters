@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="luacom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\LuaAux.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\luabeans.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\LuaCompat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\luacom_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tCOMUtil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaCOM.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaCOMClassFactory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaCOMConnPoints.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaCOMEnumerator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaCOMException.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaCOMTypeHandler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaControl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaDispatch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaObject.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaObjList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaTLB.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tLuaVector.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tStringBuffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\library\tUtil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\library\LuaAux.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\luabeans.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\luacom.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\LuaCompat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tCOMUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaCOM.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaCOMClassFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaCOMConnPoints.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaCOMEnumerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaCOMException.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaCOMTypeHandler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaControl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaDispatch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaObjList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaTLB.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tLuaVector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tStringBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\library\tUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

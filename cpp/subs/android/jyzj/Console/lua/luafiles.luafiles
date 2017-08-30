@@ -1,0 +1,42 @@
+wgframe = 
+{
+	[[loginui.lua]];
+	[[frmcmn.lua]];
+	[[consolecfg.lua]];
+	[[cmncfg.lua]];
+	[[cfgfactory.lua]];
+	[[mainfrm.lua]];
+	[[frmfactory.lua]];
+	[[FrmStatusBar.lua]];
+	[[FrmMenuBar.lua]];
+	[[AcList.lua]];
+	[[FrmMidArea.lua]];
+	[[FrmHeaderCtrl.lua]];
+	[[FrmDlg.lua]];
+	[[loginio.lua]];
+};
+lua_ = 
+{
+	lua = 
+	{
+		wgframe = 
+		{
+			[[androidcfg.lua]];
+			[[androidfrm.lua]];
+			[[androidaclist.lua]];
+		};
+	};
+};
+lua = 
+{
+	[[main.lua]];
+	[[MyCfg.lua]];
+	[[MyFrm.lua]];
+	[[MyPages.lua]];
+	[[mainio.lua]];
+};
+common = 
+{
+	[[CmnBase.lua]];
+	[[WxCmn.lua]];
+};

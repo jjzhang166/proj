@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_LI|Win32">
+      <Configuration>R_LI</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_LE|Win32">
+      <Configuration>R_LE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CA6076AA-DF2D-442C-8727-0C34AA87314D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PubMix</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_LI|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_LE|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\setup.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='R_LI|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\setup.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_LE|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\setup.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)../Libs\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_LI|Win32'">
+    <OutDir>$(ProjectDir)../Libs\</OutDir>
+    <TargetName>PubMix_LI</TargetName>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_LE|Win32'">
+    <OutDir>$(ProjectDir)../Libs\</OutDir>
+    <TargetName>PubMix_LE</TargetName>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_LI|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;__RELEASE_LOG_INFO_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_LE|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_LOG_OUTPUT_EMPTY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppBase\AutoUpdateApp.h" />
+    <ClInclude Include="AppBase\CmnCWinApp.h" />
+    <ClInclude Include="AppBase\CmnPluginTest.h" />
+    <ClInclude Include="AppBase\CmnWxApp.h" />
+    <ClInclude Include="AppBase\CmnWxDllApp.h" />
+    <ClInclude Include="AppBase\CmnWxThrd.h" />
+    <ClInclude Include="AppBase\Cmn_App.h" />
+    <ClInclude Include="AppBase\Cmn_Thrd.h" />
+    <ClInclude Include="AppBase\FrameEvents.h" />
+    <ClInclude Include="AppBase\WxLuaApp.h" />
+    <ClInclude Include="AtpMiX\AtpLogin.h" />
+    <ClInclude Include="BufCall\BC_Base.h" />
+    <ClInclude Include="BufCall\BC_Config.h" />
+    <ClInclude Include="BufCall\BC_Cont.h" />
+    <ClInclude Include="BufCall\BC_DataConver.h" />
+    <ClInclude Include="BufCall\BC_Function.h" />
+    <ClInclude Include="BufCall\BC_Iterator.h" />
+    <ClInclude Include="BufCall\BC_RegType.h" />
+    <ClInclude Include="BufCall\BC_Size.h" />
+    <ClInclude Include="BufCall\BC_Stream.h" />
+    <ClInclude Include="BufCall\BC_TypeInfo.h" />
+    <ClInclude Include="BufCall\BC_TypeToString.h" />
+    <ClInclude Include="BufCall\BufCall.h" />
+    <ClInclude Include="BufCall\Detail\BC_CallImpl.hpp" />
+    <ClInclude Include="BufCall\Detail\BC_Class.h" />
+    <ClInclude Include="BufCall\Detail\BC_DataCheck.hpp" />
+    <ClInclude Include="CmnAntiCheck\CmnRbuThread.h" />
+    <ClInclude Include="CmnMix\Cmn_Allocator.h" />
+    <ClInclude Include="CmnMix\Cmn_BinaryStream.h" />
+    <ClInclude Include="CmnMix\Cmn_BufcallFileMap.h" />
+    <ClInclude Include="CmnMix\Cmn_CharArray.h" />
+    <ClInclude Include="CmnMix\Cmn_ContTraits.h" />
+    <ClInclude Include="CmnMix\Cmn_Disasm.h" />
+    <ClInclude Include="CmnMix\Cmn_EnsureCleanup.h" />
+    <ClInclude Include="CmnMix\Cmn_Exception.h" />
+    <ClInclude Include="CmnMix\Cmn_FeatureCode.h" />
+    <ClInclude Include="CmnMix\Cmn_FileMap.h" />
+    <ClInclude Include="CmnMix\Cmn_GameObjBase.h" />
+    <ClInclude Include="CmnMix\Cmn_Hdr.h" />
+    <ClInclude Include="CmnMix\Cmn_Hooker.h" />
+    <ClInclude Include="CmnMix\Cmn_IoService.h" />
+    <ClInclude Include="CmnMix\Cmn_IoTimer.h" />
+    <ClInclude Include="CmnMix\Cmn_Iterator.h" />
+    <ClInclude Include="CmnMix\Cmn_LogOut.h" />
+    <ClInclude Include="CmnMix\Cmn_LuaFile.h" />
+    <ClInclude Include="CmnMix\Cmn_LuaOper.h" />
+    <ClInclude Include="CmnMix\Cmn_MemOper.h" />
+    <ClInclude Include="CmnMix\Cmn_PocoMore.h" />
+    <ClInclude Include="CmnMix\Cmn_RegexMore.h" />
+    <ClInclude Include="CmnMix\Cmn_TaskQueue.h" />
+    <ClInclude Include="CmnMix\Cmn_TemplateUtility.h" />
+    <ClInclude Include="CmnMix\Cmn_Toolhelp.h" />
+    <ClInclude Include="CmnMix\Cmn_TypeId.h" />
+    <ClInclude Include="CmnMix\Cmn_UsefulClass.h" />
+    <ClInclude Include="CmnMix\Cmn_UsefulFunc.h" />
+    <ClInclude Include="CmnMix\_Cmn_LuaOperImpl.hpp" />
+    <ClInclude Include="DependExternLib.h" />
+    <ClInclude Include="DependSelfLib.h" />
+    <ClInclude Include="HideClasses\APIHook.h" />
+    <ClInclude Include="HideClasses\CDetours.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StringValue\CSV_Node.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\AppBase\AutoUpdateApp.cpp" />
+    <ClCompile Include="Src\AppBase\CmnCWinApp.cpp" />
+    <ClCompile Include="Src\AppBase\CmnPluginTest.cpp" />
+    <ClCompile Include="Src\AppBase\CmnWxApp.cpp" />
+    <ClCompile Include="Src\AppBase\CmnWxDllApp.cpp" />
+    <ClCompile Include="Src\AppBase\CmnWxThrd.cpp" />
+    <ClCompile Include="Src\AppBase\Cmn_App.cpp" />
+    <ClCompile Include="Src\AppBase\Cmn_Thrd.cpp" />
+    <ClCompile Include="Src\AppBase\FrameEvents.cpp" />
+    <ClCompile Include="Src\AppBase\WxLuaApp.cpp" />
+    <ClCompile Include="Src\AtpMix\AtpLogin.cpp" />
+    <ClCompile Include="Src\BufCall\BC_Stream.cpp" />
+    <ClCompile Include="Src\BufCall\BC_TypeInfo.cpp" />
+    <ClCompile Include="Src\BufCall\BufCall.cpp" />
+    <ClCompile Include="Src\BufCall\Detail\BC_Class.cpp" />
+    <ClCompile Include="Src\CmnAntiCheck\CmnRbuThread.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_Allocator.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_BinaryStream.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_BufcallFileMap.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_CmnTypeId.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_Disasm.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_EnsureCleanup.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_Exception.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_FeatureCode.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_FileMap.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_GameObjBase.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_Hdr.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_Hooker.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_IoService.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_IoTimer.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_LogOut.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_LuaFile.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_LuaOper.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_MemOper.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_PocoMore.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_RegexMore.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_TaskQueue.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_Toolhelp.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_UsefulClass.cpp" />
+    <ClCompile Include="Src\CmnMix\Cmn_UsefulFunc.cpp" />
+    <ClCompile Include="Src\HideClasses\APIHook.cpp" />
+    <ClCompile Include="Src\HideClasses\CDetours.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='R_LI|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='R_LE|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AssetSys\AssetSystem.vcxproj">
+      <Project>{0d799d79-27d8-4421-b06c-8548d4eefcfb}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\PublicX\PublicX.vcxproj">
+      <Project>{9d2d7037-7a46-4002-ae76-163e9cbf73ee}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

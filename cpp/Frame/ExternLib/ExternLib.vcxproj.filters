@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="detours">
+      <UniqueIdentifier>{2dcd0db7-cbc0-41e6-bd80-74872d5f8ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{449f613d-affb-4844-bcdb-c5d2cc4fab0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\src">
+      <UniqueIdentifier>{0bd0426f-2924-4d0e-9c77-d01e0e6e1843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protect">
+      <UniqueIdentifier>{8af6b365-3be1-4036-87b2-2e1a7c0b19d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI_Lib">
+      <UniqueIdentifier>{8bc3696a-075d-4307-8d37-057138a848a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CrackCaptcha">
+      <UniqueIdentifier>{ac9464a5-8237-48e4-91c0-4597e339540e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="udis86">
+      <UniqueIdentifier>{ada09fb5-e9dd-41d2-a5a1-bc27538f343a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="udis86\ReadMe.txt">
+      <Filter>udis86</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detoured.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detours.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\src\json_batchallocator.h">
+      <Filter>json\src</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\Protect.h">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\VMProtectSDK.h">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Lib\SkinUI.h">
+      <Filter>UI_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Lib\SkinPPWTL.h">
+      <Filter>UI_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="CrackCaptcha\CrackCaptchaAPI.h">
+      <Filter>CrackCaptcha</Filter>
+    </ClInclude>
+    <ClInclude Include="udis86\types.h">
+      <Filter>udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="udis86\udint.h">
+      <Filter>udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="udis86\udis86.h">
+      <Filter>udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="udis86\decode.h">
+      <Filter>udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="udis86\extern.h">
+      <Filter>udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="udis86\itab.h">
+      <Filter>udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="udis86\syn.h">
+      <Filter>udis86</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\creatwth.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\detours.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disasm.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\image.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\modules.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="json\src\json_writer.cpp">
+      <Filter>json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="json\src\json_reader.cpp">
+      <Filter>json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="json\src\json_value.cpp">
+      <Filter>json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="protect\Protect.cpp">
+      <Filter>protect</Filter>
+    </ClCompile>
+    <ClCompile Include="udis86\syn-intel.c">
+      <Filter>udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="udis86\udis86.c">
+      <Filter>udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="udis86\decode.c">
+      <Filter>udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="udis86\itab.c">
+      <Filter>udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="udis86\syn.c">
+      <Filter>udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="udis86\syn-att.c">
+      <Filter>udis86</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="json\src\json_internalarray.inl">
+      <Filter>json\src</Filter>
+    </None>
+    <None Include="json\src\json_internalmap.inl">
+      <Filter>json\src</Filter>
+    </None>
+    <None Include="json\src\json_valueiterator.inl">
+      <Filter>json\src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

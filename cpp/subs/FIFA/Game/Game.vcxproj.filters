@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Facility">
+      <UniqueIdentifier>{c511b7ab-36af-4453-aa70-b17442b64e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLua">
+      <UniqueIdentifier>{81f95881-6cab-4a40-8d8a-0dc84d0e3c17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Facility\GAddr.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="Facility\GForeach.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="Facility\GFuncCall.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="Facility\GOffset.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="Facility\GTypes.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="Facility\GClass.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncObjC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLua\GLuaC.h">
+      <Filter>GLua</Filter>
+    </ClInclude>
+    <ClInclude Include="Facility\GMatch.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="Facility\MatchInterface.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="Facility\GPlayer.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CfgStructC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GloFuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DllApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Facility\GForeach.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="Facility\GFuncCall.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="Facility\GClass.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="Facility\GTypes.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncObjC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLua\BindClass.cpp">
+      <Filter>GLua</Filter>
+    </ClCompile>
+    <ClCompile Include="GLua\BindConst.cpp">
+      <Filter>GLua</Filter>
+    </ClCompile>
+    <ClCompile Include="GLua\BindGlobalFn.cpp">
+      <Filter>GLua</Filter>
+    </ClCompile>
+    <ClCompile Include="GLua\BindOther.cpp">
+      <Filter>GLua</Filter>
+    </ClCompile>
+    <ClCompile Include="GLua\BindStruct.cpp">
+      <Filter>GLua</Filter>
+    </ClCompile>
+    <ClCompile Include="GLua\GLuaC.cpp">
+      <Filter>GLua</Filter>
+    </ClCompile>
+    <ClCompile Include="Facility\GMatch.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="Facility\GPlayer.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="CfgStructC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Facility\GAddr.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Communicate\CGL_Defines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GloFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CrackData\dlgfifacalltest\command\UsefulFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DllApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc" />
+  </ItemGroup>
+</Project>

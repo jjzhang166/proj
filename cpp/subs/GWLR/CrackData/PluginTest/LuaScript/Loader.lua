@@ -1,0 +1,2 @@
+
+LoadScriptFile("test")

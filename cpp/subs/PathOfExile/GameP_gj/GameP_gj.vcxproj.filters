@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Facility">
+      <UniqueIdentifier>{1cd12aeb-39a6-45c1-8f57-1d46d5460ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CD_CommonFiles">
+      <UniqueIdentifier>{c574c1a0-1c6d-492d-a3fd-3430594403ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CD_CommonFiles\Data">
+      <UniqueIdentifier>{3b3b0b6e-09a8-44c1-afd7-216489a5cb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{51a1b202-5ef2-40a4-a1ae-fc9ebc417633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\public">
+      <UniqueIdentifier>{6a988ace-64fa-4fbb-bb76-2c70d917fed6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_UsefulFns.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Vtbl.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Const.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_FuncCall.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Interface.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Offset.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_ProtocolR.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_ProtocolS.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Serialize.hpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_StructBase.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Structs.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GPackageItemBase.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GPackageItemFilter.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GPlayer.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GProtocolR.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GSkill.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GTask.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GType.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GActions.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GameObj.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GameObjMgr.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GClass.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GConst.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GInterface.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GItem.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GMap.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GMonster.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GNpc.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GObjFilter.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\DllApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\GloFuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Scmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Updates_gj.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\CD_CommonFiles\Data\CD_Data.h">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Facility\GProtocolS.h">
+      <Filter>Facility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\public\CG_Public.h">
+      <Filter>Data\public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_FuncCall.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_Interface.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_ProtocolR.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_ProtocolS.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_StructBase.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_Structs.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Data\CD_CommonFiles\Data\CD_UsefulFns.cpp">
+      <Filter>CD_CommonFiles\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GPackageItemBase.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GPackageItemFilter.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GPlayer.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GProtocolR.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GSkill.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GTask.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GActions.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GameObj.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GameObjMgr.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GClass.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GConst.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GInterface.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GItem.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GMap.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GMonster.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GNpc.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GObjFilter.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\CSV_Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\DllApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\GloFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\P_Value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Scmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Facility\GProtocolS.cpp">
+      <Filter>Facility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

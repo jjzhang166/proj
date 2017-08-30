@@ -1,0 +1,289 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\jfzrcalltest.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "jfzrcalltest.dll"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "jfzrcalltest.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_INJECTED_WND DIALOGEX 0, 0, 1119, 471
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "怪物猎人测试"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "封包喊话",IDC_BUTTON1,7,7,76,17
+    PUSHBUTTON      "hook send",IDC_BUTTON2,866,74,76,17
+    PUSHBUTTON      "封包走路",IDC_BUTTON3,7,23,76,17
+    PUSHBUTTON      "遍历对象",IDC_BUTTON4,1035,7,76,17
+    EDITTEXT        IDC_EDIT_SHOW,250,7,612,457,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "修改攻击部位",IDC_BUTTON5,866,253,76,17
+    PUSHBUTTON      "un hook",IDC_BUTTON6,865,318,76,17
+    PUSHBUTTON      "技能CALL",IDC_BUTTON7,866,393,76,17
+    PUSHBUTTON      "遍历王立",IDC_BUTTON8,1035,447,76,17
+    PUSHBUTTON      "hook recv",IDC_BUTTON9,866,57,76,17
+    PUSHBUTTON      "hook decry",IDC_BUTTON10,866,40,76,17
+    PUSHBUTTON      "hook弹框",IDC_BUTTON11,866,220,76,17
+    PUSHBUTTON      "遍历弹框信息",IDC_BUTTON12,1035,284,76,17
+    EDITTEXT        IDC_EDIT_DECRY,1033,414,78,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "遍历物品",IDC_BUTTON13,1035,23,76,17
+    PUSHBUTTON      "封包接任务",IDC_BUTTON14,7,38,76,17
+    PUSHBUTTON      "hook 玩家血值",IDC_BUTTON15,866,155,76,17
+    PUSHBUTTON      "遍历任务模板",IDC_BUTTON16,1035,39,76,17
+    PUSHBUTTON      "遍历已接任务",IDC_BUTTON17,1035,55,76,17
+    PUSHBUTTON      "遍历UI信息",IDC_BUTTON18,1035,70,76,17
+    PUSHBUTTON      "hook encryption",IDC_BUTTON19,866,24,76,17
+    PUSHBUTTON      "hook 怪物血值",IDC_BUTTON20,866,140,76,17
+    PUSHBUTTON      "hook CryMalloc",IDC_BUTTON21,866,122,76,17
+    PUSHBUTTON      "封包打开NPC",IDC_BUTTON22,7,55,76,17
+    PUSHBUTTON      "封包过图",IDC_BUTTON23,7,71,76,17
+    PUSHBUTTON      "遍历可接任务",IDC_BUTTON24,1035,87,76,17
+    PUSHBUTTON      "hook 模板信息",IDC_BUTTON25,866,106,76,17
+    PUSHBUTTON      "遍历未知对象",IDC_BUTTON26,1035,103,76,17
+    PUSHBUTTON      "遍历所有实现对象",IDC_BUTTON27,1035,119,76,17
+    PUSHBUTTON      "封包城镇过图",IDC_BUTTON28,7,86,76,17
+    PUSHBUTTON      "遍历追踪任务",IDC_BUTTON29,1035,134,76,17
+    PUSHBUTTON      "封包交任务",IDC_BUTTON30,7,101,76,17
+    PUSHBUTTON      "封包采集物品",IDC_BUTTON31,7,132,76,17
+    PUSHBUTTON      "遍历副本信息",IDC_BUTTON32,1035,149,76,17
+    PUSHBUTTON      "封包进入副本",IDC_BUTTON33,7,149,76,17
+    PUSHBUTTON      "封包存取仓库",IDC_BUTTON34,7,166,76,17
+    PUSHBUTTON      "遍历物品模板",IDC_BUTTON35,1035,184,76,17
+    PUSHBUTTON      "封包取补给箱物品",IDC_BUTTON36,89,7,76,17
+    PUSHBUTTON      "hook优化动画",IDC_BUTTON37,866,172,76,17
+    PUSHBUTTON      "使用物品",IDC_BUTTON38,865,361,76,17
+    PUSHBUTTON      "封包制作物品",IDC_BUTTON39,89,23,76,17
+    PUSHBUTTON      "hook 加载完地图",IDC_BUTTON40,866,89,76,17
+    PUSHBUTTON      "封包出售物品",IDC_BUTTON41,89,39,76,17
+    PUSHBUTTON      "遍历邮件",IDC_BUTTON42,1035,219,76,17
+    PUSHBUTTON      "封包获取邮件",IDC_BUTTON43,89,55,76,17
+    PUSHBUTTON      "封包打开邮箱",IDC_BUTTON44,89,70,76,17
+    PUSHBUTTON      "封包删除邮件",IDC_BUTTON45,89,87,76,17
+    PUSHBUTTON      "遍历种子信息",IDC_BUTTON46,1035,300,76,17
+    PUSHBUTTON      "封包和NPC交谈",IDC_BUTTON47,89,102,76,17
+    PUSHBUTTON      "鼠标左键",IDC_BUTTON48,866,410,76,17
+    PUSHBUTTON      "hook 猎守副本结束",IDC_BUTTON49,866,7,76,17
+    PUSHBUTTON      "封包选择角色",IDC_BUTTON50,89,119,76,17
+    PUSHBUTTON      "封包返回角色",IDC_BUTTON51,89,135,76,17
+    PUSHBUTTON      "遍历商品模板",IDC_BUTTON52,1035,202,76,17
+    PUSHBUTTON      "封包购买物品",IDC_BUTTON53,89,150,76,17
+    PUSHBUTTON      "遍历锻造物品",IDC_BUTTON54,1035,235,76,17
+    PUSHBUTTON      "封包锻造物品",IDC_BUTTON55,89,166,76,17
+    PUSHBUTTON      "封包升级装备",IDC_BUTTON56,7,182,76,17
+    PUSHBUTTON      "获取角色地图信息",IDC_BUTTON57,1035,253,76,17
+    PUSHBUTTON      "封包创建角色",IDC_BUTTON58,89,182,76,17
+    PUSHBUTTON      "键盘按键",IDC_BUTTON60,866,447,76,17
+    PUSHBUTTON      "封包离开庄园",IDC_BUTTON59,7,198,76,17
+    PUSHBUTTON      "封包进入庄园",IDC_BUTTON61,89,199,76,17
+    PUSHBUTTON      "封包升级采集点",IDC_BUTTON62,7,215,76,17
+    PUSHBUTTON      "封包分解素材",IDC_BUTTON63,89,215,76,17
+    PUSHBUTTON      "无敌",IDC_BUTTON64,866,237,76,17
+    PUSHBUTTON      "hook剧情",IDC_BUTTON65,866,189,76,17
+    PUSHBUTTON      "hook返回到角色界面",IDC_BUTTON66,866,204,76,17
+    PUSHBUTTON      "封包接受公会任务",IDC_BUTTON67,7,230,76,17
+    PUSHBUTTON      "封包接受千狩喵喵任务",IDC_BUTTON68,7,245,76,17
+    PUSHBUTTON      "封包查询拍卖物品",IDC_BUTTON69,7,341,76,17
+    PUSHBUTTON      "封包拍卖物品翻页",IDC_BUTTON70,7,325,76,17
+    PUSHBUTTON      "封包拍卖购买物品",IDC_BUTTON71,7,309,76,17
+    PUSHBUTTON      "封包刷新我的拍卖",IDC_BUTTON72,7,293,76,17
+    PUSHBUTTON      "封包上架我的拍卖",IDC_BUTTON73,7,277,76,17
+    PUSHBUTTON      "封包邀请组队",IDC_BUTTON74,89,311,76,17
+    PUSHBUTTON      "封包申请组队",IDC_BUTTON75,89,295,76,17
+    PUSHBUTTON      "封包退出队伍",IDC_BUTTON76,89,279,76,17
+    PUSHBUTTON      "封包请离队伍",IDC_BUTTON77,90,262,76,17
+    PUSHBUTTON      "封包创建队伍",IDC_BUTTON78,90,246,76,17
+    PUSHBUTTON      "封包选择队长线",IDC_BUTTON79,89,230,76,17
+    PUSHBUTTON      "遍历调和物品",IDC_BUTTON80,1035,269,76,17
+    PUSHBUTTON      "封包主动获取副本",IDC_BUTTON81,7,261,76,17
+    PUSHBUTTON      "封包查询激运副本",IDC_BUTTON82,7,356,76,17
+    PUSHBUTTON      "攻击部位",IDC_BUTTON83,866,269,76,17
+    PUSHBUTTON      "计算对象面向",IDC_BUTTON84,866,378,76,17
+    PUSHBUTTON      "封包坐气球",IDC_BUTTON85,89,327,76,17
+    PUSHBUTTON      "遍历农场采集点",IDC_BUTTON86,1035,315,76,17
+    PUSHBUTTON      "遍历补给箱",IDC_BUTTON87,1035,331,76,17
+    PUSHBUTTON      "封包放弃关卡",IDC_BUTTON88,89,342,76,17
+    PUSHBUTTON      "封包种植种子",IDC_BUTTON89,7,373,76,17
+    PUSHBUTTON      "优化游戏",IDC_BUTTON90,866,284,76,17
+    PUSHBUTTON      "封包发送邮件",IDC_BUTTON91,89,359,76,17
+    PUSHBUTTON      "遍历buff状态",IDC_BUTTON92,1035,363,76,17
+    PUSHBUTTON      "遍历buff",IDC_BUTTON93,1035,347,76,17
+    PUSHBUTTON      "遍历礼包",IDC_BUTTON94,1035,380,76,17
+    PUSHBUTTON      "封包领取礼包",IDC_BUTTON95,7,389,76,17
+    PUSHBUTTON      "遍历等级信息",IDC_BUTTON96,1035,397,76,17
+    PUSHBUTTON      "封包整理仓库或背包",IDC_BUTTON97,89,375,76,17
+    PUSHBUTTON      "封包放弃任务",IDC_BUTTON98,7,116,76,17
+    PUSHBUTTON      "新手训练离开教学",IDC_BUTTON99,89,391,76,17
+    PUSHBUTTON      "进入教学副本",IDC_BUTTON100,7,407,76,17
+    PUSHBUTTON      "空中使用技能",IDC_BUTTON101,865,300,76,17
+    PUSHBUTTON      "封包获取周狩猎券",IDC_BUTTON102,89,408,76,17
+    PUSHBUTTON      "同步坐标",IDC_BUTTON103,7,447,76,17
+    PUSHBUTTON      "整理CALL",IDC_BUTTON104,1035,429,76,17
+    PUSHBUTTON      "hook 角色地面坐标",IDC_BUTTON105,865,429,76,17
+    PUSHBUTTON      "遍历任务副本信息",IDC_BUTTON106,1035,166,76,17
+    PUSHBUTTON      "删除角色",IDC_BUTTON107,7,424,76,17
+    PUSHBUTTON      "加好友",IDC_BUTTON108,89,425,76,17
+    PUSHBUTTON      "遍历赏金任务",IDC_BUTTON109,865,335,76,17
+    PUSHBUTTON      "请求交易",IDC_BUTTON110,170,7,76,17
+    PUSHBUTTON      "移动物品到交易栏",IDC_BUTTON111,170,24,76,17
+    PUSHBUTTON      "锁定交易栏",IDC_BUTTON112,170,41,76,17
+    PUSHBUTTON      "确认交易",IDC_BUTTON113,170,58,76,17
+    PUSHBUTTON      "交易金币",IDC_BUTTON114,170,75,76,17
+    PUSHBUTTON      "解锁王立精英副本",IDC_BUTTON115,170,92,76,17
+    PUSHBUTTON      "暂停检测线程",IDC_BUTTON116,949,7,76,17
+    PUSHBUTTON      "CRC测试",IDC_BUTTON117,949,26,76,17
+    PUSHBUTTON      "开掉恢复线程",IDC_BUTTON118,949,44,76,17
+    PUSHBUTTON      "HOOKGetTickCount",IDC_BUTTON119,950,63,76,17
+    PUSHBUTTON      "HOOKKiUserEx",IDC_BUTTON120,951,82,76,17
+    PUSHBUTTON      "WriteChek",IDC_BUTTON121,951,101,76,17
+    PUSHBUTTON      "HookEnumMod",IDC_BUTTON122,951,122,76,17
+    PUSHBUTTON      "遍历采集物品",IDC_BUTTON123,951,142,76,17
+    PUSHBUTTON      "调用LPK导出",IDC_BUTTON124,953,162,76,17
+    PUSHBUTTON      "HOOK精彩截图",IDC_BUTTON125,953,182,76,17
+    PUSHBUTTON      "UITest",IDC_BTN_UITEST,953,204,76,17
+    PUSHBUTTON      "按键测试",IDC_BTN_UITEST2,953,224,76,17
+    PUSHBUTTON      "输入测试",IDC_BTN_UITEST3,955,245,76,17
+    PUSHBUTTON      "输入测试",IDC_BTN_UITEST4,957,266,76,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DLG_INJECTED_WND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 1111
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 464
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\jfzrcalltest.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

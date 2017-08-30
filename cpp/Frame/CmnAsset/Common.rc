@@ -1,0 +1,7 @@
+/*
+@author zhp
+@date 2016/11/13 22:13
+@purpose for common rc file
+*/
+
+assf      RCDATA    "res\\as.assf"

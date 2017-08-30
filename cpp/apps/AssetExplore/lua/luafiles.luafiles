@@ -1,0 +1,13 @@
+lua = 
+{
+	[[main.lua]];
+	[[mainui.lua]];
+	[[cmdid.lua]];
+	[[cmdhandler.lua]];
+	[[cmdimpl.lua]];
+};
+common = 
+{
+	[[WxCmn.lua]];
+	[[CmnBase.lua]];
+};

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6CA455BD-9547-3A1C-BF1F-B7E093F47621}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>wxLuaLib</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Import Project="..\..\..\..\..\..\libsetup.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="..\..\..\..\..\..\libsetup.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Import Project="..\..\..\..\..\..\libsetup.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="..\..\..\..\..\..\libsetup.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)../../lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">wxLuaLib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">wxlua-wx31d-2.8.12.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)../../lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">wxLuaLib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">wxlua-wx31-2.8.12.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)../../lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">wxLuaLib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">wxlua-wx31-2.8.12.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)../../lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">wxLuaLib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">wxlua-wx31-2.8.12.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <IncludePath>$(SolutionDir)../modules\wxbind\setup;$(SolutionDir)../;$(SolutionDir)../modules;$(SolutionDir)../../;$(SolutionDir)../../../wxWidgets/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)../modules\wxbind\setup;$(SolutionDir)../;$(SolutionDir)../modules;$(SolutionDir)../../;$(SolutionDir)../../../wxWidgets/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <IncludePath>$(SolutionDir)../modules\wxbind\setup;$(SolutionDir)../;$(SolutionDir)../modules;$(SolutionDir)../../;$(SolutionDir)../../../wxWidgets/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)../modules\wxbind\setup;$(SolutionDir)../;$(SolutionDir)../modules;$(SolutionDir)../../;$(SolutionDir)../../../wxWidgets/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)../../../wxWidgets/lib/vc_lib/mswud;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;wxLUA_USEBINDING_WXGL=1;wxLUA_USEBINDING_WXSTC=1;wxLUA_USEBINDING_WXXRC=1;wxLUA_USEBINDING_WXRICHTEXT=1;wxLUA_USEBINDING_WXPROPGRID=0;wxLUA_USEBINDING_WXHTML=1;wxLUA_USEBINDING_WXMEDIA=1;wxLUA_USEBINDING_WXAUI=1;wxLUA_USEBINDING_WXADV=1;wxLUA_USEBINDING_WXCORE=1;wxLUA_USEBINDING_WXXML=1;wxLUA_USEBINDING_WXNET=1;wxLUA_USEBINDING_WXBASE=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;wxLUA_USEBINDING_WXGL=1;wxLUA_USEBINDING_WXSTC=1;wxLUA_USEBINDING_WXXRC=1;wxLUA_USEBINDING_WXRICHTEXT=1;wxLUA_USEBINDING_WXPROPGRID=0;wxLUA_USEBINDING_WXHTML=1;wxLUA_USEBINDING_WXMEDIA=1;wxLUA_USEBINDING_WXAUI=1;wxLUA_USEBINDING_WXADV=1;wxLUA_USEBINDING_WXCORE=1;wxLUA_USEBINDING_WXXML=1;wxLUA_USEBINDING_WXNET=1;wxLUA_USEBINDING_WXBASE=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;F:\proj\lua\wxLua;F:\proj\lua\wxLua\modules;F:\proj\lua\wxLua\modules\lua-5.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;F:\proj\lua\wxLua;F:\proj\lua\wxLua\modules;F:\proj\lua\wxLua\modules\lua-5.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)../../../wxWidgets/lib/vc_lib/mswu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;wxLUA_USEBINDING_WXGL=1;wxLUA_USEBINDING_WXSTC=1;wxLUA_USEBINDING_WXXRC=1;wxLUA_USEBINDING_WXRICHTEXT=1;wxLUA_USEBINDING_WXPROPGRID=0;wxLUA_USEBINDING_WXHTML=1;wxLUA_USEBINDING_WXMEDIA=1;wxLUA_USEBINDING_WXAUI=1;wxLUA_USEBINDING_WXADV=1;wxLUA_USEBINDING_WXCORE=1;wxLUA_USEBINDING_WXXML=1;wxLUA_USEBINDING_WXNET=1;wxLUA_USEBINDING_WXBASE=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;wxLUA_USEBINDING_WXGL=1;wxLUA_USEBINDING_WXSTC=1;wxLUA_USEBINDING_WXXRC=1;wxLUA_USEBINDING_WXRICHTEXT=1;wxLUA_USEBINDING_WXPROPGRID=0;wxLUA_USEBINDING_WXHTML=1;wxLUA_USEBINDING_WXMEDIA=1;wxLUA_USEBINDING_WXAUI=1;wxLUA_USEBINDING_WXADV=1;wxLUA_USEBINDING_WXCORE=1;wxLUA_USEBINDING_WXXML=1;wxLUA_USEBINDING_WXNET=1;wxLUA_USEBINDING_WXBASE=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;F:\proj\lua\wxLua;F:\proj\lua\wxLua\modules;F:\proj\lua\wxLua\modules\lua-5.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;F:\proj\lua\wxLua;F:\proj\lua\wxLua\modules;F:\proj\lua\wxLua\modules\lua-5.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;wxLUA_USEBINDING_WXGL=1;wxLUA_USEBINDING_WXSTC=1;wxLUA_USEBINDING_WXXRC=1;wxLUA_USEBINDING_WXRICHTEXT=1;wxLUA_USEBINDING_WXPROPGRID=0;wxLUA_USEBINDING_WXHTML=1;wxLUA_USEBINDING_WXMEDIA=1;wxLUA_USEBINDING_WXAUI=1;wxLUA_USEBINDING_WXADV=1;wxLUA_USEBINDING_WXCORE=1;wxLUA_USEBINDING_WXXML=1;wxLUA_USEBINDING_WXNET=1;wxLUA_USEBINDING_WXBASE=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;wxLUA_USEBINDING_WXGL=1;wxLUA_USEBINDING_WXSTC=1;wxLUA_USEBINDING_WXXRC=1;wxLUA_USEBINDING_WXRICHTEXT=1;wxLUA_USEBINDING_WXPROPGRID=0;wxLUA_USEBINDING_WXHTML=1;wxLUA_USEBINDING_WXMEDIA=1;wxLUA_USEBINDING_WXAUI=1;wxLUA_USEBINDING_WXADV=1;wxLUA_USEBINDING_WXCORE=1;wxLUA_USEBINDING_WXXML=1;wxLUA_USEBINDING_WXNET=1;wxLUA_USEBINDING_WXBASE=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;F:\proj\lua\wxLua;F:\proj\lua\wxLua\modules;F:\proj\lua\wxLua\modules\lua-5.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;F:\proj\lua\wxLua;F:\proj\lua\wxLua\modules;F:\proj\lua\wxLua\modules\lua-5.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;wxLUA_USEBINDING_WXGL=1;wxLUA_USEBINDING_WXSTC=1;wxLUA_USEBINDING_WXXRC=1;wxLUA_USEBINDING_WXRICHTEXT=1;wxLUA_USEBINDING_WXPROPGRID=0;wxLUA_USEBINDING_WXHTML=1;wxLUA_USEBINDING_WXMEDIA=1;wxLUA_USEBINDING_WXAUI=1;wxLUA_USEBINDING_WXADV=1;wxLUA_USEBINDING_WXCORE=1;wxLUA_USEBINDING_WXXML=1;wxLUA_USEBINDING_WXNET=1;wxLUA_USEBINDING_WXBASE=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;wxLUA_USEBINDING_WXGL=1;wxLUA_USEBINDING_WXSTC=1;wxLUA_USEBINDING_WXXRC=1;wxLUA_USEBINDING_WXRICHTEXT=1;wxLUA_USEBINDING_WXPROPGRID=0;wxLUA_USEBINDING_WXHTML=1;wxLUA_USEBINDING_WXMEDIA=1;wxLUA_USEBINDING_WXAUI=1;wxLUA_USEBINDING_WXADV=1;wxLUA_USEBINDING_WXCORE=1;wxLUA_USEBINDING_WXXML=1;wxLUA_USEBINDING_WXNET=1;wxLUA_USEBINDING_WXBASE=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;F:\proj\lua\wxLua;F:\proj\lua\wxLua\modules;F:\proj\lua\wxLua\modules\lua-5.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\proj\lua\wxLua\modules\wxbind\setup;F:\proj\lua\wxLua;F:\proj\lua\wxLua\modules;F:\proj\lua\wxLua\modules\lua-5.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\modules\wxlua\atomic.h" />
+    <ClInclude Include="..\..\..\modules\wxlua\sharedptr.h" />
+    <ClInclude Include="..\..\..\modules\wxlua\wxlbind.h" />
+    <ClInclude Include="..\..\..\modules\wxlua\wxlcallb.h" />
+    <ClInclude Include="..\..\..\modules\wxlua\wxlconsole.h" />
+    <ClInclude Include="..\..\..\modules\wxlua\wxldefs.h" />
+    <ClInclude Include="..\..\..\modules\wxlua\wxlobject.h" />
+    <ClInclude Include="..\..\..\modules\wxlua\wxlstate.h" />
+    <ClInclude Include="..\..\..\modules\wxlua\wxlua.h" />
+    <ClInclude Include="..\..\..\modules\wxlua\wxlua_bind.h" />
+    <ClInclude Include="..\..\..\modules\wxlua\wxlversion.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\modules\wxlua\dummy.cpp" />
+    <ClCompile Include="..\..\..\modules\wxlua\wxlbind.cpp" />
+    <ClCompile Include="..\..\..\modules\wxlua\wxlcallb.cpp" />
+    <ClCompile Include="..\..\..\modules\wxlua\wxlconsole.cpp" />
+    <ClCompile Include="..\..\..\modules\wxlua\wxlobject.cpp" />
+    <ClCompile Include="..\..\..\modules\wxlua\wxlstate.cpp" />
+    <ClCompile Include="..\..\..\modules\wxlua\wxlua_bind.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\modules\wxlua\CMakeLists.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

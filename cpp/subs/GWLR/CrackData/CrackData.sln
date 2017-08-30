@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SomeLpk", "SomeLpk", "{4895F5E7-9D75-468E-8F1F-4AA23257C456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoginTest", "LoginTest", "{3E7E3A1B-4438-4227-AA9C-AE5E46999878}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FeatureCode", "FeatureCode", "{FCB9D42C-5A58-4CB4-8109-E58C38825FF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BugTrace", "LoginTest\BugTrace\BugTrace\BugTrace.vcxproj", "{F54ABC1E-7742-41DD-82F4-AA2189F4CAB7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "LoginTest\Test\Test\Test.vcxproj", "{EC497DDB-79C9-45E1-97BE-D3AB51013391}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheckCrack", "SomeLpk\CheckCrack\CheckCrack\CheckCrack.vcxproj", "{87BFC0CB-DDCA-44BC-9377-010CCF146233}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lpk", "SomeLpk\lpk\lpk\lpk.vcxproj", "{B7A92880-D213-4D8E-ACDA-0B01A4D565A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lpk_crc", "SomeLpk\lpk_crc\lpk_crc.vcxproj", "{2BCB8011-CD6D-43F9-BDB9-9CF7DF9637D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gwlrcalltest", "dlggwlrcalltest\jfzrcalltest\jfzrcalltest.vcxproj", "{48787FF2-C96F-41B5-84E8-E60F4079CD68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CD_CommonFiles", "CD_CommonFiles", "{F664F00A-E2BA-4228-8CF7-3108B211B650}"
+	ProjectSection(SolutionItems) = preProject
+		CD_CommonFiles\CD_AntiCrack.h = CD_CommonFiles\CD_AntiCrack.h
+		CD_CommonFiles\CD_CmnDefines.h = CD_CommonFiles\CD_CmnDefines.h
+		CD_CommonFiles\CD_CmnStructs.h = CD_CommonFiles\CD_CmnStructs.h
+		CD_CommonFiles\CD_Updates.h = CD_CommonFiles\CD_Updates.h
+		CD_CommonFiles\MyApi.cpp = CD_CommonFiles\MyApi.cpp
+		CD_CommonFiles\MyApi.h = CD_CommonFiles\MyApi.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoUpdate", "FeatureCode\AutoUpdate\AutoUpdate.vcxproj", "{8416A370-8285-4185-BC4E-6C381BDBA9BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PluginTest", "PluginTest\PluginTest.vcxproj", "{58A44AA9-1184-4A11-93EA-283847DFCBBE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LpkIIPS", "SomeLpk\LpkIIPS\LpkIIPS.vcxproj", "{7B5DD5F1-7F41-4F2F-8E3C-A6B9C1189271}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F54ABC1E-7742-41DD-82F4-AA2189F4CAB7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F54ABC1E-7742-41DD-82F4-AA2189F4CAB7}.Debug|Win32.Build.0 = Debug|Win32
+		{F54ABC1E-7742-41DD-82F4-AA2189F4CAB7}.Release|Win32.ActiveCfg = Release|Win32
+		{F54ABC1E-7742-41DD-82F4-AA2189F4CAB7}.Release|Win32.Build.0 = Release|Win32
+		{EC497DDB-79C9-45E1-97BE-D3AB51013391}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC497DDB-79C9-45E1-97BE-D3AB51013391}.Debug|Win32.Build.0 = Debug|Win32
+		{EC497DDB-79C9-45E1-97BE-D3AB51013391}.Release|Win32.ActiveCfg = Release|Win32
+		{EC497DDB-79C9-45E1-97BE-D3AB51013391}.Release|Win32.Build.0 = Release|Win32
+		{87BFC0CB-DDCA-44BC-9377-010CCF146233}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87BFC0CB-DDCA-44BC-9377-010CCF146233}.Debug|Win32.Build.0 = Debug|Win32
+		{87BFC0CB-DDCA-44BC-9377-010CCF146233}.Release|Win32.ActiveCfg = Release|Win32
+		{87BFC0CB-DDCA-44BC-9377-010CCF146233}.Release|Win32.Build.0 = Release|Win32
+		{B7A92880-D213-4D8E-ACDA-0B01A4D565A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7A92880-D213-4D8E-ACDA-0B01A4D565A2}.Debug|Win32.Build.0 = Debug|Win32
+		{B7A92880-D213-4D8E-ACDA-0B01A4D565A2}.Release|Win32.ActiveCfg = Release|Win32
+		{B7A92880-D213-4D8E-ACDA-0B01A4D565A2}.Release|Win32.Build.0 = Release|Win32
+		{2BCB8011-CD6D-43F9-BDB9-9CF7DF9637D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BCB8011-CD6D-43F9-BDB9-9CF7DF9637D1}.Debug|Win32.Build.0 = Debug|Win32
+		{2BCB8011-CD6D-43F9-BDB9-9CF7DF9637D1}.Release|Win32.ActiveCfg = Release|Win32
+		{2BCB8011-CD6D-43F9-BDB9-9CF7DF9637D1}.Release|Win32.Build.0 = Release|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Debug|Win32.Build.0 = Debug|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Release|Win32.ActiveCfg = Release|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Release|Win32.Build.0 = Release|Win32
+		{8416A370-8285-4185-BC4E-6C381BDBA9BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8416A370-8285-4185-BC4E-6C381BDBA9BE}.Debug|Win32.Build.0 = Debug|Win32
+		{8416A370-8285-4185-BC4E-6C381BDBA9BE}.Release|Win32.ActiveCfg = Release|Win32
+		{8416A370-8285-4185-BC4E-6C381BDBA9BE}.Release|Win32.Build.0 = Release|Win32
+		{58A44AA9-1184-4A11-93EA-283847DFCBBE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58A44AA9-1184-4A11-93EA-283847DFCBBE}.Debug|Win32.Build.0 = Debug|Win32
+		{58A44AA9-1184-4A11-93EA-283847DFCBBE}.Release|Win32.ActiveCfg = Release|Win32
+		{58A44AA9-1184-4A11-93EA-283847DFCBBE}.Release|Win32.Build.0 = Release|Win32
+		{7B5DD5F1-7F41-4F2F-8E3C-A6B9C1189271}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B5DD5F1-7F41-4F2F-8E3C-A6B9C1189271}.Debug|Win32.Build.0 = Debug|Win32
+		{7B5DD5F1-7F41-4F2F-8E3C-A6B9C1189271}.Release|Win32.ActiveCfg = Release|Win32
+		{7B5DD5F1-7F41-4F2F-8E3C-A6B9C1189271}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F54ABC1E-7742-41DD-82F4-AA2189F4CAB7} = {3E7E3A1B-4438-4227-AA9C-AE5E46999878}
+		{EC497DDB-79C9-45E1-97BE-D3AB51013391} = {3E7E3A1B-4438-4227-AA9C-AE5E46999878}
+		{87BFC0CB-DDCA-44BC-9377-010CCF146233} = {4895F5E7-9D75-468E-8F1F-4AA23257C456}
+		{B7A92880-D213-4D8E-ACDA-0B01A4D565A2} = {4895F5E7-9D75-468E-8F1F-4AA23257C456}
+		{2BCB8011-CD6D-43F9-BDB9-9CF7DF9637D1} = {4895F5E7-9D75-468E-8F1F-4AA23257C456}
+		{8416A370-8285-4185-BC4E-6C381BDBA9BE} = {FCB9D42C-5A58-4CB4-8109-E58C38825FF3}
+		{7B5DD5F1-7F41-4F2F-8E3C-A6B9C1189271} = {4895F5E7-9D75-468E-8F1F-4AA23257C456}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="steditlib" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 DLL Unicode Debug">
+				<Option output="..\lib\gcc_lib\wxsteditud_gcc_custom" prefix_auto="1" extension_auto="1" />
+				<Option object_output="gcc_mswud\steditlib" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DDLL_EXPORTS" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D__WXDEBUG__" />
+					<Add option="-D_UNICODE" />
+					<Add option="-DWXUSINGDLL" />
+					<Add directory="$(WXWIN)\lib\vc_dll\mswud" />
+					<Add directory="$(WXWIN)\include" />
+					<Add directory="..\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(WXWIN)\lib\vc_dll\mswud" />
+					<Add directory="$(WXWIN)\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="wxtiffd" />
+					<Add library="wxjpegd" />
+					<Add library="wxpngd" />
+					<Add library="wxzlibd" />
+					<Add library="wxregexud" />
+					<Add library="wxexpatd" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="comdlg32" />
+					<Add library="winspool" />
+					<Add library="winmm" />
+					<Add library="shell32" />
+					<Add library="comctl32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="rpcrt4" />
+					<Add library="advapi32" />
+					<Add library="wsock32" />
+					<Add library="odbc32" />
+					<Add library="wxmsw28ud_core" />
+					<Add library="wxbase28ud" />
+					<Add directory="$(WXWIN)\lib\vc_dll" />
+				</Linker>
+			</Target>
+			<Target title="Win32 DLL Debug">
+				<Option output="..\lib\gcc_lib\libsteditd_gcc_custom" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="gcc_mswd\steditlib" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DDLL_EXPORTS" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D__WXDEBUG__" />
+					<Add option="-DWXUSINGDLL" />
+					<Add directory="$(#WX.lib)\gcc_dll$(WX_CFG)\mswd" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(WXWIN)\lib\vc_dll\mswd" />
+					<Add directory="$(WXWIN)\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libwxmsw28d_adv.a" />
+					<Add library="libwxmsw28d_core.a" />
+					<Add library="libwxbase28d.a" />
+					<Add directory="$(#WX.lib)\gcc_dll$(WX_CFG)" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Unicode Release">
+				<Option output="..\lib\gcc_lib\libsteditu_gcc_custom" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="gcc_mswu\steditlib" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add option="-D_LIB" />
+					<Add option="-D_UNICODE" />
+					<Add directory="$(WXWIN)\lib\vc_lib\mswu" />
+					<Add directory="$(WXWIN)\include" />
+					<Add directory="..\include" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 Release">
+				<Option output="..\lib\gcc_lib\libstedit_gcc_custom" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="gcc_msw\steditlib" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add option="-D_LIB" />
+					<Add directory="$(WXWIN)\lib\vc_lib\msw" />
+					<Add directory="$(WXWIN)\include" />
+					<Add directory="..\include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="$(#WX.include)" />
+			<Add directory="..\include" />
+			<Add directory="$(#WX)\contrib\include" />
+		</Compiler>
+		<Linker>
+			<Add directory="$(#WX.lib)" />
+		</Linker>
+		<Unit filename="..\src\precomp.h">
+			<Option compile="1" />
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="..\src\wxext.cpp" />
+		<Unit filename="..\src\stedit.cpp" />
+		<Unit filename="..\src\steart.cpp" />
+		<Unit filename="..\src\stedlgs.cpp" />
+		<Unit filename="..\src\stedlgs_wdr.cpp" />
+		<Unit filename="..\src\steexprt.cpp" />
+		<Unit filename="..\src\stefindr.cpp" />
+		<Unit filename="..\src\steframe.cpp" />
+		<Unit filename="..\src\stelangs.cpp" />
+		<Unit filename="..\src\stemenum.cpp" />
+		<Unit filename="..\src\stenoteb.cpp" />
+		<Unit filename="..\src\steopts.cpp" />
+		<Unit filename="..\src\steprefs.cpp" />
+		<Unit filename="..\src\steprint.cpp" />
+		<Unit filename="..\src\steshell.cpp" />
+		<Unit filename="..\src\stesplit.cpp" />
+		<Unit filename="..\src\stestyls.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+3.1.0中没有wxStyledTextCtrl::GetKeysUnicode函数了
+3.1.0中没有wxStyledTextCtrl::SetKeysUnicode函数了
+3.1.0中没有wxSTC_COFFEESCRIPT_HASHQUOTEDSTRING了
+为了兼容wxLua：wxWidgets\include\wx\msw\setup.h，修改成-> #define WXWIN_COMPATIBILITY_2_8 1

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CommonX">
+      <UniqueIdentifier>{d70cb7a0-c667-40b4-8ff2-8b922c4b6ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{d2a148dd-7dd9-4ad1-9da3-01c3aa8c8955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\CommonX">
+      <UniqueIdentifier>{058866a2-cde6-4be3-b9c1-464718446830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtocolX">
+      <UniqueIdentifier>{9b3678e3-a1b9-42df-9a1a-987d199cc4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ProtocolX">
+      <UniqueIdentifier>{d6af3d72-430c-4724-afe0-148fc3131109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RStd">
+      <UniqueIdentifier>{930b7f7d-acf2-4e13-ad0e-1c1b457d9cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\RStd">
+      <UniqueIdentifier>{e0a3ff5a-270a-45d6-ac9f-564cf44248e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{e1fe821d-3eee-4102-8bd2-a3e2f3b081ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\math">
+      <UniqueIdentifier>{1b02e8e1-3173-4e3b-846e-94c81f5cfe4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StdEx">
+      <UniqueIdentifier>{f720a3a5-f2a1-48e0-ab58-43a25bf7befa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\StdEx">
+      <UniqueIdentifier>{0c034d1f-898f-4e41-b0da-e5fca76f250e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_HookerMore.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolX\P_DefinesX.h">
+      <Filter>ProtocolX</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_UsefulFunc.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_UsefulClass.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_StaticConts.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_TaskQueue.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="DependSelfLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_Lock.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_Allocator.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_DllApi.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolX\P_BaseTypeX.h">
+      <Filter>ProtocolX</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_Container.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_HeapAlgoMacro.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonX\CmnX_Math.h">
+      <Filter>CommonX</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RVector.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RYvals.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RXutility.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RList.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RString.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RXstring.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RDeque.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RStack.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RQueue.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RBitset.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RSet.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RMap.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RXtree.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RXhash.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RHash_map.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RHash_set.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="RStd\RContTest.h">
+      <Filter>RStd</Filter>
+    </ClInclude>
+    <ClInclude Include="math\CmnGeometry.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\GraphForm.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="StdEx\XstddefEx.h">
+      <Filter>StdEx</Filter>
+    </ClInclude>
+    <ClInclude Include="StdEx\TString.h">
+      <Filter>StdEx</Filter>
+    </ClInclude>
+    <ClInclude Include="StdEx\VectorEx.h">
+      <Filter>StdEx</Filter>
+    </ClInclude>
+    <ClInclude Include="StdEx\DequeEx.h">
+      <Filter>StdEx</Filter>
+    </ClInclude>
+    <ClInclude Include="StdEx\QueueEx.h">
+      <Filter>StdEx</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolX\P_Value.h">
+      <Filter>ProtocolX</Filter>
+    </ClInclude>
+    <ClInclude Include="StdEx\AlgorithmEx.h">
+      <Filter>StdEx</Filter>
+    </ClInclude>
+    <ClInclude Include="StdEx\RttiEx.h">
+      <Filter>StdEx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CommonX\CmnX_HookerMore.cpp">
+      <Filter>Src\CommonX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ProtocolX\P_DefinesX.cpp">
+      <Filter>Src\ProtocolX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CommonX\CmnX_UsefulFunc.cpp">
+      <Filter>Src\CommonX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CommonX\CmnX_UsefulClass.cpp">
+      <Filter>Src\CommonX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CommonX\CmnX_TaskQueue.cpp">
+      <Filter>Src\CommonX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CommonX\CmnX_Lock.cpp">
+      <Filter>Src\CommonX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CommonX\CmnX_Allocator.cpp">
+      <Filter>Src\CommonX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CommonX\CmnX_DllApi.cpp">
+      <Filter>Src\CommonX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CommonX\CmnX_Math.cpp">
+      <Filter>Src\CommonX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RStd\RContTest.cpp">
+      <Filter>Src\RStd</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StdEx\TString.cpp">
+      <Filter>Src\StdEx</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StdEx\RttiEx.cpp">
+      <Filter>Src\StdEx</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

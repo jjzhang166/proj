@@ -1,0 +1,280 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\jfzrcalltest.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "jfzrcalltest.dll"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "jfzrcalltest.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_INJECTED_WND DIALOGEX 0, 0, 1011, 351
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "`1234"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "遍历技能",IDC_BUTTON1,666,17,53,14
+    EDITTEXT        IDC_EDIT_DATA,7,7,527,337,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "遍历怪物",IDC_BUTTON2,666,32,53,14
+    PUSHBUTTON      "进入副本",IDC_BUTTON3,539,21,53,14
+    PUSHBUTTON      "剑斗士-上勾拳",IDC_BUTTON4,820,111,100,14
+    PUSHBUTTON      "人物数据",IDC_BUTTON5,666,176,53,14
+    PUSHBUTTON      "返回城镇",IDC_BUTTON6,539,49,53,14
+    PUSHBUTTON      "遍历当前房间",IDC_BUTTON7,666,61,53,14
+    PUSHBUTTON      "捡物",IDC_BUTTON8,539,64,53,14
+    PUSHBUTTON      "DEMO",IDC_BUTTON9,539,307,53,14
+    PUSHBUTTON      "STOP DEMO",IDC_BUTTON10,539,323,53,14
+    PUSHBUTTON      "再次挑战",IDC_BUTTON11,539,35,53,14
+    PUSHBUTTON      "遍历物品",IDC_BUTTON12,666,90,53,14
+    PUSHBUTTON      "移动",IDC_BUTTON13,539,78,53,14
+    PUSHBUTTON      "查询副本地图",IDC_BUTTON14,666,104,53,14
+    PUSHBUTTON      "穿戴装备",IDC_BUTTON15,596,190,53,14
+    PUSHBUTTON      "脱掉装备",IDC_BUTTON16,596,204,53,14
+    PUSHBUTTON      "遍历装备",IDC_BUTTON17,666,46,53,14
+    PUSHBUTTON      "鉴定装备",IDC_BUTTON18,596,219,53,14
+    PUSHBUTTON      "城镇1门",IDC_BUTTON19,539,134,53,14
+    PUSHBUTTON      "城镇数据",IDC_BUTTON20,665,205,53,14
+    PUSHBUTTON      "城镇2门",IDC_BUTTON21,539,148,53,14
+    PUSHBUTTON      "城镇3门",IDC_BUTTON22,539,162,53,14
+    PUSHBUTTON      "城镇4门",IDC_BUTTON23,539,176,53,14
+    PUSHBUTTON      "疲劳值",IDC_BUTTON24,666,75,53,14
+    PUSHBUTTON      "买卖物品",IDC_BUTTON25,596,176,53,14
+    PUSHBUTTON      "学习技能",IDC_BUTTON26,596,91,53,14
+    PUSHBUTTON      "创建角色",IDC_BUTTON27,596,105,53,14
+    PUSHBUTTON      "选择角色",IDC_BUTTON28,596,119,53,14
+    PUSHBUTTON      "遍历中英文映射",IDC_BUTTON29,726,31,79,14
+    PUSHBUTTON      "选择频道",IDC_BUTTON30,596,161,53,14
+    PUSHBUTTON      "Hook recv",IDC_BUTTON31,725,295,53,14
+    PUSHBUTTON      "UnHook recv",IDC_BUTTON32,726,310,53,14
+    PUSHBUTTON      "快速移动",IDC_BUTTON33,596,133,53,14
+    PUSHBUTTON      "过图-1门",IDC_BUTTON34,539,92,53,14
+    PUSHBUTTON      "过图-2门",IDC_BUTTON35,539,106,53,14
+    PUSHBUTTON      "过图-3门",IDC_BUTTON36,539,120,53,14
+    PUSHBUTTON      "发送邮件",IDC_BUTTON37,596,21,53,14
+    PUSHBUTTON      "跳过动画",IDC_BUTTON38,539,219,53,14
+    PUSHBUTTON      "接收任务",IDC_BUTTON39,596,63,53,14
+    PUSHBUTTON      "完成任务",IDC_BUTTON40,596,77,53,14
+    PUSHBUTTON      "Hook send",IDC_BUTTON41,666,295,53,14
+    PUSHBUTTON      "UnHook send",IDC_BUTTON42,666,310,53,14
+    PUSHBUTTON      "翻译CALL",IDC_BUTTON43,539,292,53,14
+    PUSHBUTTON      "遍历职业任务",IDC_BUTTON44,666,118,53,14
+    PUSHBUTTON      "遍历所有任务",IDC_BUTTON45,666,133,53,14
+    PUSHBUTTON      "遍历已接任务",IDC_BUTTON46,666,147,53,14
+    PUSHBUTTON      "遍历任务NPC",IDC_BUTTON47,666,162,53,14
+    PUSHBUTTON      "遍历可到副本城镇",IDC_BUTTON48,726,17,79,14
+    PUSHBUTTON      "分解物品",IDC_BUTTON49,596,147,53,14
+    PUSHBUTTON      "环境数据",IDC_BUTTON50,599,291,53,14
+    PUSHBUTTON      "技能模板",IDC_BUTTON51,726,118,53,14
+    PUSHBUTTON      "物品模板",IDC_BUTTON52,726,46,53,14
+    PUSHBUTTON      "Stage模板",IDC_BUTTON53,726,60,53,14
+    PUSHBUTTON      "HOOK模板",IDC_BUTTON54,666,325,53,14
+    PUSHBUTTON      "商品模板",IDC_BUTTON55,726,75,53,14
+    PUSHBUTTON      "控魔师-冰刺",IDC_BUTTON56,820,282,100,14
+    PUSHBUTTON      "技能hash",IDC_BUTTON57,599,323,53,14
+    PUSHBUTTON      "移除邮件",IDC_BUTTON58,596,49,53,14
+    PUSHBUTTON      "ProjectileSerial",IDC_BUTTON59,599,307,53,14
+    PUSHBUTTON      "斩狂-旋风斩",IDC_BUTTON60,820,126,100,14
+    PUSHBUTTON      "打开菜单",IDC_BUTTON61,937,18,53,14
+    PUSHBUTTON      "按下走路",IDC_BUTTON62,937,46,53,14
+    PUSHBUTTON      "按键测试",IDC_BUTTON63,937,32,53,14
+    PUSHBUTTON      "Class模板",IDC_BUTTON64,726,89,53,14
+    PUSHBUTTON      "Region模板",IDC_BUTTON65,726,103,53,14
+    PUSHBUTTON      "查询拍卖物品链表",IDC_BUTTON66,822,12,94,14
+    PUSHBUTTON      "购买拍卖物品",IDC_BUTTON67,822,27,94,14
+    PUSHBUTTON      "挂物品到拍卖",IDC_BUTTON68,822,41,94,14
+    PUSHBUTTON      "查询我的拍卖物品",IDC_BUTTON69,822,56,94,14
+    PUSHBUTTON      "取消我的拍卖物品",IDC_BUTTON70,822,70,94,14
+    PUSHBUTTON      "接受邮件",IDC_BUTTON71,596,35,53,14
+    PUSHBUTTON      "鼠标测试",IDC_BUTTON72,937,60,53,14
+    PUSHBUTTON      "动态静态角色信息",IDC_BUTTON73,665,220,80,14
+    PUSHBUTTON      "Action模板",IDC_BUTTON74,726,133,53,14
+    PUSHBUTTON      "刃武者-掠空腿",IDC_BUTTON75,820,183,100,14
+    PUSHBUTTON      "副本选择奖励",IDC_BUTTON76,539,205,53,14
+    PUSHBUTTON      "修理装备",IDC_BUTTON77,539,191,53,14
+    PUSHBUTTON      "查询物品拍卖市场价",IDC_BUTTON78,822,84,94,14
+    PUSHBUTTON      "Hook game send",IDC_BUTTON79,665,262,79,14
+    PUSHBUTTON      "UnHook game send",IDC_BUTTON80,665,278,79,14
+    PUSHBUTTON      "城镇门的位置",IDC_BUTTON81,749,233,54,14
+    PUSHBUTTON      "hook 输出字符串",IDC_BUTTON82,725,325,66,14
+    GROUPBOX        "封包",IDC_STATIC,534,7,121,245
+    GROUPBOX        "遍历",IDC_STATIC,660,7,149,245
+    GROUPBOX        "其他",IDC_STATIC,534,281,122,61
+    GROUPBOX        "拍卖",IDC_STATIC,813,7,111,95
+    GROUPBOX        "按键",IDC_STATIC,927,7,71,72
+    GROUPBOX        "HOOK",IDC_STATIC,661,252,148,92
+    PUSHBUTTON      "Hook TimeStamp",IDC_BUTTON83,748,262,56,14
+    GROUPBOX        "剑斗士技能",IDC_STATIC,814,100,111,73
+    PUSHBUTTON      "时空术士-S·星际陨石",IDC_BUTTON84,820,296,100,14
+    PUSHBUTTON      "剑魔-一字斩·凝光",IDC_BUTTON85,820,140,100,14
+    PUSHBUTTON      "拳刹-重炮拳",IDC_BUTTON86,820,154,100,14
+    GROUPBOX        "刃武者技能",IDC_STATIC,814,172,111,96
+    GROUPBOX        "控魔师技能",IDC_STATIC,814,271,111,73
+    PUSHBUTTON      "霜语者-寒冰刃雨",IDC_BUTTON87,820,310,100,14
+    PUSHBUTTON      "猎刃星-术法·升天",IDC_BUTTON88,820,211,100,14
+    PUSHBUTTON      "魔影师-瞬步影袭",IDC_BUTTON89,820,324,100,14
+    PUSHBUTTON      "天狼星-天狼狂飙",IDC_BUTTON90,820,225,100,14
+    PUSHBUTTON      "凤舞星-五喵杀",IDC_BUTTON91,820,240,100,14
+    PUSHBUTTON      "刃武者-瞬杀",IDC_BUTTON92,820,197,100,14
+    PUSHBUTTON      "使用物品",IDC_BUTTON93,539,234,53,14
+    PUSHBUTTON      "技能攻击hash字符串",IDC_BUTTON94,665,235,80,14
+    PUSHBUTTON      "同步方向",IDC_BUTTON95,596,234,53,14
+    PUSHBUTTON      "上次行动时间",IDC_BUTTON96,666,190,53,14
+    GROUPBOX        "验证",IDC_STATIC,534,251,122,30
+    PUSHBUTTON      "获取过图验证数据",IDC_BUTTON97,539,262,106,14
+    PUSHBUTTON      "Projectile模板",IDC_BUTTON98,726,147,53,14
+    PUSHBUTTON      "移动所有对象",IDC_BUTTON99,933,134,71,14
+    PUSHBUTTON      "销毁对象",IDC_BUTTON100,933,85,71,14
+    PUSHBUTTON      "开启移动封包拦截",IDC_BUTTON101,933,163,71,14
+    PUSHBUTTON      "Hook GetHash",IDC_BUTTON102,933,178,71,14
+    PUSHBUTTON      "过图封包验证置值",IDC_BUTTON103,933,240,71,14
+    PUSHBUTTON      "门的坐标",IDC_BUTTON104,725,163,53,14
+    PUSHBUTTON      "ItemStatusValue",IDC_BUTTON105,933,258,71,14
+    PUSHBUTTON      "无敌",IDC_BUTTON106,933,119,71,14
+    PUSHBUTTON      "开启/关闭移动对象",IDC_BUTTON107,933,149,71,14
+    PUSHBUTTON      "主线任务章节",IDC_BUTTON108,725,178,53,14
+    PUSHBUTTON      "放弃任务",IDC_BUTTON109,564,7,71,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_INJECTED_WND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 1004
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 344
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\jfzrcalltest.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

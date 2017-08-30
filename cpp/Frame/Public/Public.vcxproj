@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DEBUG|Win32">
+      <Configuration>DEBUG</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_LE|Win32">
+      <Configuration>R_LE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="R_LI|Win32">
+      <Configuration>R_LI</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{91E2FF01-98F6-4451-955B-A3BA10625045}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Public</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_LI|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_LE|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\setup.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_LI|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\setup.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='R_LE|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\setup.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)../Libs\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_LI|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)../Libs\</OutDir>
+    <TargetName>public_LI</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='R_LE|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)../Libs\</OutDir>
+    <TargetName>public_LE</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_LI|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;__RELEASE_LOG_INFO_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='R_LE|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_LOG_OUTPUT_EMPTY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Actions\CA_Action.h" />
+    <ClInclude Include="Actions\CA_Types.h" />
+    <ClInclude Include="AppMix\AppAndroidConsole.h" />
+    <ClInclude Include="AppMix\AppAndroidGame.h" />
+    <ClInclude Include="AppMix\AppAtpConsole.h" />
+    <ClInclude Include="AppMix\AppAtpGame.h" />
+    <ClInclude Include="AppMix\AppAtpLogin.h" />
+    <ClInclude Include="AppMix\AppExecEnv.h" />
+    <ClInclude Include="AppMix\ConsoleComponent.h" />
+    <ClInclude Include="AppMix\AndroidExecEnv.h" />
+    <ClInclude Include="AppMix\ConsoleUiOper.h" />
+    <ClInclude Include="AppMix\GameComponent.h" />
+    <ClInclude Include="AppMix\OnlyGameComponent.h" />
+    <ClInclude Include="AppMix\OnlyLoginComponent.h" />
+    <ClInclude Include="AppMix\WgLuaVm.h" />
+    <ClInclude Include="Common\CmnAllocator.h" />
+    <ClInclude Include="Common\CmnConts.h" />
+    <ClInclude Include="Common\CmnDllApi.h" />
+    <ClInclude Include="Common\CmnException.h" />
+    <ClInclude Include="Common\CmnHdr.h" />
+    <ClInclude Include="Common\CmnImageHlp.h" />
+    <ClInclude Include="Common\CmnPriLuaData.h" />
+    <ClInclude Include="Common\CmnRecordMap.h" />
+    <ClInclude Include="Common\CmnTaskQueue.h" />
+    <ClInclude Include="Common\CmnUuid.h" />
+    <ClInclude Include="Common\CrackCaptcha.h" />
+    <ClInclude Include="Common\Database.h" />
+    <ClInclude Include="Common\EnsureCleanup.h" />
+    <ClInclude Include="Common\FE_Env.h" />
+    <ClInclude Include="Common\FileMap.h" />
+    <ClInclude Include="Common\GameObjBase.h" />
+    <ClInclude Include="Common\Hooker.h" />
+    <ClInclude Include="Common\IoCompletionPort.h" />
+    <ClInclude Include="Common\Iterator.h" />
+    <ClInclude Include="Common\JsonMore.h" />
+    <ClInclude Include="Common\LogOut.h" />
+    <ClInclude Include="Common\MakeSecret.h" />
+    <ClInclude Include="Common\MemOper.h" />
+    <ClInclude Include="Common\MultiStrMatchOnTime.h" />
+    <ClInclude Include="Common\RegexMore.h" />
+    <ClInclude Include="Common\Toolhelp.h" />
+    <ClInclude Include="Common\TupleMore.h" />
+    <ClInclude Include="Common\UiCtrls.h" />
+    <ClInclude Include="Common\UsefulClass.h" />
+    <ClInclude Include="Common\UsefulFunc.h" />
+    <ClInclude Include="Common\GObjProxy.h" />
+    <ClInclude Include="Common\WaitChainTraversal.h" />
+    <ClInclude Include="Common\XmlCfg.h" />
+    <ClInclude Include="DependSelfLib.h" />
+    <ClInclude Include="FuncObjs\FuncObj.h" />
+    <ClInclude Include="FuncObjs\FuncObjCoor.h" />
+    <ClInclude Include="FuncObjs\FuncObjInter.h" />
+    <ClInclude Include="mfc\MfcAcOper.h" />
+    <ClInclude Include="mfc\MfcMap.h" />
+    <ClInclude Include="Net\AllocHandler.h" />
+    <ClInclude Include="Net\BufCallCoorTrans.h" />
+    <ClInclude Include="Net\Bufcall_FileMap.h" />
+    <ClInclude Include="Net\Bufcall_Socket.h" />
+    <ClInclude Include="Net\client.h" />
+    <ClInclude Include="Net\CmnLogin.h" />
+    <ClInclude Include="Net\CmnLoginInfo.h" />
+    <ClInclude Include="Net\DbData.h" />
+    <ClInclude Include="Net\IoConnect.h" />
+    <ClInclude Include="Net\IoService.h" />
+    <ClInclude Include="Net\IoTimer.h" />
+    <ClInclude Include="Net\JsonCall.h" />
+    <ClInclude Include="Net\JsonEchoCoorTrans.h" />
+    <ClInclude Include="Net\LoginLocalInfo.h" />
+    <ClInclude Include="Net\LoginLocalInfoS.h" />
+    <ClInclude Include="Net\PocoMore.h" />
+    <ClInclude Include="Net\server.h" />
+    <ClInclude Include="Protocol\HijackXmlCfg.h" />
+    <ClInclude Include="Protocol\P_BaseStruct.h" />
+    <ClInclude Include="Protocol\P_Coor.h" />
+    <ClInclude Include="Protocol\P_Defines.h" />
+    <ClInclude Include="Protocol\P_NormalMsg.h" />
+    <ClInclude Include="Protocol\P_PriDefines.h" />
+    <ClInclude Include="Script\DmOper.h" />
+    <ClInclude Include="Script\FileSystem.h" />
+    <ClInclude Include="Script\LuaScript.h" />
+    <ClInclude Include="Script\lua_base.h" />
+    <ClInclude Include="Script\StateResolver.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="WgFacility\CmnAStar.h" />
+    <ClInclude Include="WgFacility\CmnFilter.h" />
+    <ClInclude Include="WgFacility\CmnGameStruct.h" />
+    <ClInclude Include="WgFacility\CmnMapPath.h" />
+    <ClInclude Include="WgFacility\CmnQuestHandler.h" />
+    <ClInclude Include="WgFacility\CmnRecvPacket.h" />
+    <ClInclude Include="WgFacility\CmnSceneHandler.h" />
+    <ClInclude Include="WgFacility\CmnShortestPaths.h" />
+    <ClInclude Include="WgFacility\Details\Details.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Actions\CA_Action.cpp" />
+    <ClCompile Include="src\AppMix\AppAndroidConsole.cpp" />
+    <ClCompile Include="src\AppMix\AppAndroidGame.cpp" />
+    <ClCompile Include="src\AppMix\AppAtpConsole.cpp" />
+    <ClCompile Include="src\AppMix\AppAtpGame.cpp" />
+    <ClCompile Include="src\AppMix\AppAtpLogin.cpp" />
+    <ClCompile Include="src\AppMix\AppExecEnv.cpp" />
+    <ClCompile Include="src\AppMix\ConsoleComponent.cpp" />
+    <ClCompile Include="src\AppMix\AndroidExecEnv.cpp" />
+    <ClCompile Include="src\AppMix\ConsoleUiOper.cpp" />
+    <ClCompile Include="src\AppMix\GameComponent.cpp" />
+    <ClCompile Include="src\AppMix\OnlyGameComponent.cpp" />
+    <ClCompile Include="src\AppMix\OnlyLoginComponent.cpp" />
+    <ClCompile Include="src\AppMix\WgLuaVm.cpp" />
+    <ClCompile Include="src\Common\CmnDllApi.cpp" />
+    <ClCompile Include="src\Common\CmnException.cpp" />
+    <ClCompile Include="src\Common\CmnHdr.cpp" />
+    <ClCompile Include="src\Common\CmnImageHlp.cpp" />
+    <ClCompile Include="src\Common\CmnPriLuaData.cpp" />
+    <ClCompile Include="src\Common\CmnRecordMap.cpp" />
+    <ClCompile Include="src\Common\CmnUuid.cpp" />
+    <ClCompile Include="src\Common\CrackCaptcha.cpp" />
+    <ClCompile Include="src\Common\Database.cpp" />
+    <ClCompile Include="src\Common\EnsureCleanup.cpp" />
+    <ClCompile Include="src\Common\GameObjBase.cpp" />
+    <ClCompile Include="src\Common\Hooker.cpp" />
+    <ClCompile Include="src\Common\IoCompletionPort.cpp" />
+    <ClCompile Include="src\Common\JsonMore.cpp" />
+    <ClCompile Include="src\Common\LogOut.cpp" />
+    <ClCompile Include="src\Common\MakeSecret.cpp" />
+    <ClCompile Include="src\Common\MemOper.cpp" />
+    <ClCompile Include="src\Common\MultiStrMatchOnTime.cpp" />
+    <ClCompile Include="src\Common\Toolhelp.cpp" />
+    <ClCompile Include="src\Common\UiCtrls.cpp" />
+    <ClCompile Include="src\Common\UsefulClass.cpp" />
+    <ClCompile Include="src\Common\UsefulFunc.cpp" />
+    <ClCompile Include="src\Common\WaitChainTraversal.cpp" />
+    <ClCompile Include="src\Common\XmlCfg.cpp" />
+    <ClCompile Include="src\FuncObjs\FuncObj.cpp" />
+    <ClCompile Include="src\FuncObjs\FuncObjCoor.cpp" />
+    <ClCompile Include="src\FuncObjs\FuncObjInter.cpp" />
+    <ClCompile Include="src\mfc\MfcAcOper.cpp" />
+    <ClCompile Include="src\mfc\MfcMap.cpp" />
+    <ClCompile Include="src\Net\AllocHandler.cpp" />
+    <ClCompile Include="src\Net\BufCallCoorTrans.cpp" />
+    <ClCompile Include="src\Net\Bufcall_Socket.cpp" />
+    <ClCompile Include="src\Net\client.cpp" />
+    <ClCompile Include="src\Net\CmnLogin.cpp" />
+    <ClCompile Include="src\Net\CmnLoginInfo.cpp" />
+    <ClCompile Include="src\Net\DbData.cpp" />
+    <ClCompile Include="src\Net\IoConnect.cpp" />
+    <ClCompile Include="src\Net\JsonCall.cpp" />
+    <ClCompile Include="src\Net\JsonEchoCoorTrans.cpp" />
+    <ClCompile Include="src\Net\LoginLocalInfo.cpp" />
+    <ClCompile Include="src\Net\LoginLocalInfoS.cpp" />
+    <ClCompile Include="src\Net\PocoMore.cpp" />
+    <ClCompile Include="src\Net\server.cpp" />
+    <ClCompile Include="src\Protocol\HijackXmlCfg.cpp" />
+    <ClCompile Include="src\Protocol\P_Defines.cpp" />
+    <ClCompile Include="src\Protocol\P_NormalMsg.cpp" />
+    <ClCompile Include="src\Script\DmOper.cpp" />
+    <ClCompile Include="src\Script\FileSystem.cpp" />
+    <ClCompile Include="src\Script\LuaScript.cpp" />
+    <ClCompile Include="src\Script\lua_base.cpp" />
+    <ClCompile Include="src\Script\StateResolver.cpp" />
+    <ClCompile Include="src\WgFacility\CmnGameStruct.cpp" />
+    <ClCompile Include="src\WgFacility\CmnMapPath.cpp" />
+    <ClCompile Include="src\WgFacility\CmnQuestHandler.cpp" />
+    <ClCompile Include="src\WgFacility\CmnRecvPacket.cpp" />
+    <ClCompile Include="src\WgFacility\CmnSceneHandler.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='R_LI|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='R_LE|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PubMix\PubMix.vcxproj">
+      <Project>{ca6076aa-df2d-442c-8727-0c34aa87314d}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

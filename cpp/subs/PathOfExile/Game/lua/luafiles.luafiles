@@ -1,0 +1,17 @@
+lua = 
+{
+	[[main.lua]];
+	[[mycmd.lua]];
+};
+lua_ = 
+{
+	["lua"] = 
+	{
+		["wgscript"] = 
+		{
+			[[s_command.lua]];
+			[[s_cmncfg.lua]];
+			[[中文角色名支持.lua]];
+		};
+	};
+};

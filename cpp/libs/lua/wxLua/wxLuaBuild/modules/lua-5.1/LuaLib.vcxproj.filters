@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\loadlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\proj\lua\wxLua\modules\lua-5.1\src\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\llex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\llimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lopcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lundump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\proj\lua\wxLua\modules\lua-5.1\src\lzio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\proj\lua\wxLua\modules\lua-5.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E8C1BCF2-14F8-3F39-899F-5B55770FBE56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7F9E318E-B88A-3CD2-9125-A3594482AD69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PluginTest", "PluginTest\PluginTest.vcxproj", "{9E916B25-0439-462E-996F-7148A927889F}"
+EndProject
+Project("{5697748A-77EF-44CA-8824-4F5637E5945B}") = "PluginTestLua", "PluginTest\PluginTestLua.luaproj", "{E439935D-B2A2-46AE-856D-2AA408428F33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E916B25-0439-462E-996F-7148A927889F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E916B25-0439-462E-996F-7148A927889F}.Debug|Win32.Build.0 = Debug|Win32
+		{9E916B25-0439-462E-996F-7148A927889F}.Release|Win32.ActiveCfg = Release|Win32
+		{9E916B25-0439-462E-996F-7148A927889F}.Release|Win32.Build.0 = Release|Win32
+		{E439935D-B2A2-46AE-856D-2AA408428F33}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{E439935D-B2A2-46AE-856D-2AA408428F33}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

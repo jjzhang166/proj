@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+F:/proj/lua/wxLua/bindings/CMakeLists.txt
+F:/proj/lua/wxLua/build/CMakewxAppLib.cmake
+F:/proj/lua/wxLua/build/CMakeFunctions.cmake

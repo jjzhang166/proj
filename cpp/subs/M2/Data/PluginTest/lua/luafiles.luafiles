@@ -1,0 +1,8 @@
+lua = 
+{
+	[[main.lua]];
+};
+wgframe = 
+{
+	[[plugintest.lua]];
+};

@@ -1,0 +1,20 @@
+
+local cdi = CD_Interface
+
+cdi.DbgMap()
+--cdi.DbgGameObjs()
+--cdi.DbgGlobalUtility()
+--cdi.DbgBagItems(enCD_InventoryType.kIT_Equip)
+--cdi.DbgSkills()
+--cdi.DbgUi(cdi.enCD_TraUiShowFlag.kTUSF_Show)
+--cdi.DbgFindUi(cdi.enCD_TraUiShowFlag.kTUSF_Show + cdi.enCD_TraUiShowFlag.kTUSF_UnShow, "UICharacterListDialog")
+--cdi.DbgQuest()
+--cdi.DbgSkillSlot()
+--cdi.DbgPortal()
+--cdi.DbgAction()
+--cdi.DbgBodyEquips()
+--cdi.DbgMails()
+--cdi.DbgLightService()
+--cdi.DbgCharacterList()
+--cdi.DbgParty()
+--cdi.DbgMapInformationService()

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CmnAsmInfo", "CmnAsmInfo", "{AA895A2C-690A-4651-ADBD-E74EDBD342EF}"
+	ProjectSection(SolutionItems) = preProject
+		CmnAsmInfo\tmp.h = CmnAsmInfo\tmp.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Login", "Login", "{158F8FC0-CE2B-46EF-AB10-616AF282C225}"
+	ProjectSection(SolutionItems) = preProject
+		CmnAsmInfo\Login\FaskLogin.h = CmnAsmInfo\Login\FaskLogin.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DummyBugTrace", "DummyBugTrace\DummyBugTrace.vcxproj", "{BE16D254-B14B-4A93-A81D-49F2AE3CF1AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE16D254-B14B-4A93-A81D-49F2AE3CF1AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BE16D254-B14B-4A93-A81D-49F2AE3CF1AB}.Debug|Win32.Build.0 = Debug|Win32
+		{BE16D254-B14B-4A93-A81D-49F2AE3CF1AB}.Release|Win32.ActiveCfg = Release|Win32
+		{BE16D254-B14B-4A93-A81D-49F2AE3CF1AB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{158F8FC0-CE2B-46EF-AB10-616AF282C225} = {AA895A2C-690A-4651-ADBD-E74EDBD342EF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>E439935D-B2A2-46AE-856D-2AA408428F33</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="lua\" />
+    <Folder Include="脚本\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="lua\GameStateSetter.lua" />
+    <Compile Include="lua\HandleAmbient.lua" />
+    <Compile Include="lua\Logic.lua" />
+    <Compile Include="lua\mainio.lua" />
+    <Compile Include="lua\Scri_Commands.lua" />
+    <Compile Include="lua\SendRecvMap.lua" />
+    <Compile Include="脚本\test.lua" />
+    <Compile Include="脚本\不做任何事超时退出脚本.lua" />
+    <Compile Include="脚本\仓库号手动合卡交易.lua" />
+    <Compile Include="脚本\仓库号脚本.lua" />
+    <Compile Include="脚本\双点拍卖.lua" />
+    <Compile Include="脚本\开卡交换寄售.lua" />
+    <Compile Include="脚本\开卡流程.lua" />
+    <Compile Include="脚本\开卡脚本.lua" />
+    <Compile Include="脚本\截卡脚本.lua" />
+    <Compile Include="脚本\扫隐藏卡.lua" />
+    <Compile Include="脚本\指定的时间换号.lua" />
+    <Compile Include="脚本\普通号-不交易不封号脚本.lua" />
+    <Compile Include="脚本\普通号手动合卡交易.lua" />
+    <Compile Include="脚本\普通号纯交易脚本.lua" />
+    <Compile Include="脚本\普通号纯踢球脚本.lua" />
+    <Compile Include="脚本\普通号脚本.lua" />
+    <Compile Include="脚本\活动领卡开卡脚本.lua" />
+    <Compile Include="脚本\活动领卡脚本.lua" />
+    <Compile Include="脚本\自动购买合卡出售.lua" />
+    <Compile Include="脚本\配置信息.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="脚本\说明文档.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

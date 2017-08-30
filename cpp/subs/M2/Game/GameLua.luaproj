@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c01c1004-9d6e-4381-9900-7f252915dfc1}</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="lua\" />
+    <Folder Include="脚本\" />
+    <Folder Include="脚本\任务\" />
+    <Folder Include="脚本\配置\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="lua\main.lua" />
+    <Compile Include="lua\mycmd.lua" />
+    <Compile Include="脚本\run.lua" />
+    <Compile Include="脚本\test.lua" />
+    <Compile Include="脚本\任务\具体任务处理.lua" />
+    <Compile Include="脚本\任务\通用任务函数.lua" />
+    <Compile Include="脚本\任务\配置任务处理.lua" />
+    <Compile Include="脚本\做任务升级.lua" />
+    <Compile Include="脚本\异界.lua" />
+    <Compile Include="脚本\配置\通用函数.lua" />
+    <Compile Include="脚本\配置\通用配置.lua" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

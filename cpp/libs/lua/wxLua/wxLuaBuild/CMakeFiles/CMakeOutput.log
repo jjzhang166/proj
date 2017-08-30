@@ -1,0 +1,344 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.19453]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/10/27 17:53:23。
+节点 1 上的项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.28
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/3.6.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.19453]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/10/27 17:53:24。
+节点 1 上的项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCXX.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.35
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/3.6.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b8cb5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.19453]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/10/27 17:53:24。
+节点 1 上的项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\cmTC_b8cb5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b8cb5.dir\Debug\”。
+  正在创建目录“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b8cb5.dir\Debug\cmTC_b8cb5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b8cb5.dir\Debug\cmTC_b8cb5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b8cb5.dir\Debug\\" /Fd"cmTC_b8cb5.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b8cb5.dir\Debug\\" /Fd"cmTC_b8cb5.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\cmTC_b8cb5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp/Debug/cmTC_b8cb5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp/Debug/cmTC_b8cb5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b8cb5.dir\Debug\testCCompiler.obj
+  cmTC_b8cb5.vcxproj -> F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\cmTC_b8cb5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b8cb5.dir\Debug\cmTC_b8cb5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b8cb5.dir\Debug\cmTC_b8cb5.tlog\cmTC_b8cb5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\cmTC_b8cb5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.34
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_53e37.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.19453]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/10/27 17:53:25。
+节点 1 上的项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\cmTC_53e37.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_53e37.dir\Debug\”。
+  正在创建目录“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_53e37.dir\Debug\cmTC_53e37.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_53e37.dir\Debug\cmTC_53e37.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_53e37.dir\Debug\\" /Fd"cmTC_53e37.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\tools\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_53e37.dir\Debug\\" /Fd"cmTC_53e37.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\tools\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\cmTC_53e37.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp/Debug/cmTC_53e37.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp/Debug/cmTC_53e37.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_53e37.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_53e37.vcxproj -> F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\cmTC_53e37.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_53e37.dir\Debug\cmTC_53e37.tlog\unsuccessfulbuild”。
+  正在对“cmTC_53e37.dir\Debug\cmTC_53e37.tlog\cmTC_53e37.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\cmTC_53e37.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.33
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_31f2b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.19453]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/10/27 17:53:25。
+节点 1 上的项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\cmTC_31f2b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_31f2b.dir\Debug\”。
+  正在创建目录“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_31f2b.dir\Debug\cmTC_31f2b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_31f2b.dir\Debug\cmTC_31f2b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_31f2b.dir\Debug\\" /Fd"cmTC_31f2b.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_31f2b.dir\Debug\\" /Fd"cmTC_31f2b.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\cmTC_31f2b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp/Debug/cmTC_31f2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp/Debug/cmTC_31f2b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_31f2b.dir\Debug\testCXXCompiler.obj
+  cmTC_31f2b.vcxproj -> F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\cmTC_31f2b.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_31f2b.dir\Debug\cmTC_31f2b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_31f2b.dir\Debug\cmTC_31f2b.tlog\cmTC_31f2b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\cmTC_31f2b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.39
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_cedc8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.19453]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/10/27 17:53:26。
+节点 1 上的项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\cmTC_cedc8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cedc8.dir\Debug\”。
+  正在创建目录“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cedc8.dir\Debug\cmTC_cedc8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cedc8.dir\Debug\cmTC_cedc8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_cedc8.dir\Debug\\" /Fd"cmTC_cedc8.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\tools\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_cedc8.dir\Debug\\" /Fd"cmTC_cedc8.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\tools\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\cmTC_cedc8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp/Debug/cmTC_cedc8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp/Debug/cmTC_cedc8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_cedc8.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_cedc8.vcxproj -> F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\cmTC_cedc8.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_cedc8.dir\Debug\cmTC_cedc8.tlog\unsuccessfulbuild”。
+  正在对“cmTC_cedc8.dir\Debug\cmTC_cedc8.tlog\cmTC_cedc8.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\cmTC_cedc8.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.39
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_5b5b5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.19453]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/10/27 17:53:26。
+节点 1 上的项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\cmTC_5b5b5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5b5b5.dir\Debug\”。
+  正在创建目录“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5b5b5.dir\Debug\cmTC_5b5b5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5b5b5.dir\Debug\cmTC_5b5b5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_5b5b5.dir\Debug\\" /Fd"cmTC_5b5b5.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_5b5b5.dir\Debug\\" /Fd"cmTC_5b5b5.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\cmTC_5b5b5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp/Debug/cmTC_5b5b5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/proj/lua/wxLua/wxLuaBuild/CMakeFiles/CMakeTmp/Debug/cmTC_5b5b5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5b5b5.dir\Debug\feature_tests.obj
+  cmTC_5b5b5.vcxproj -> F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\Debug\cmTC_5b5b5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5b5b5.dir\Debug\cmTC_5b5b5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5b5b5.dir\Debug\cmTC_5b5b5.tlog\cmTC_5b5b5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\proj\lua\wxLua\wxLuaBuild\CMakeFiles\CMakeTmp\cmTC_5b5b5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.34
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

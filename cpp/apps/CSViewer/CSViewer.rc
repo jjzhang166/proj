@@ -1,0 +1,276 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "verrsrc.h"
+
+#include <CmnAsset/Common.rc>
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#include ""res\\CSViewer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""      // Standard components\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxribbon.rc""   // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+//
+
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CSViewer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CSV_DLG_LOGIN DIALOGEX 0, 0, 207, 122
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登陆"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,74,101,50,14
+    LTEXT           "帐号：",IDC_STATIC,35,25,31,8
+    LTEXT           "密码：",IDC_STATIC,36,57,25,8
+    EDITTEXT        IDC_EDIT_CSV_AC,71,25,91,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CSV_PWD,71,55,93,14,ES_AUTOHSCROLL
+    LTEXT           "帐号和密码的长度不能少于4，不能大于20",IDC_STATIC,20,83,167,8
+END
+
+IDD_DLG_SET_PROJ_DATAS DIALOGEX 0, 0, 559, 233
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置项目数据"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,221,212,50,14
+    COMBOBOX        IDC_COMBO_DATA_TYPE,128,20,48,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ID:",IDC_STATIC,35,38,11,8
+    EDITTEXT        IDC_EDIT_PROJ_DATAS_ID,60,37,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "数据：",IDC_STATIC,17,59,25,8
+    EDITTEXT        IDC_EDIT_PROJ_DATAS_DATA,52,58,449,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加数据项",IDC_BT_PROJ_DATAS_ADD,231,38,50,14
+    CONTROL         "",IDC_LIST_PROJ_DATAS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,34,116,359,68
+END
+
+IDD_CSVIEWER_DIALOG_FULL DIALOGEX 0, 0, 673, 239
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "帐号管理"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "帐号:",IDC_STATIC,15,12,20,8
+    EDITTEXT        IDC_EDIT_USER_AC,43,11,83,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "执行解绑",IDC_BT_DO_REMOVE_BIND,15,28,50,14
+    CONTROL         "",IDC_LIST_AC_INFO,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,81,659,66
+    CONTROL         "",IDC_LIST_CARD_INFO,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,159,659,73
+    LTEXT           "密码：",IDC_STATIC,139,14,29,8
+    EDITTEXT        IDC_EDIT_USER_AC_PWD,171,12,75,14,ES_AUTOHSCROLL
+    LTEXT           "卡号:",IDC_STATIC,253,15,20,8
+    EDITTEXT        IDC_EDIT_CARD_ID,278,12,136,14,ES_AUTOHSCROLL
+    LTEXT           "卡密:",IDC_STATIC,426,15,20,8
+    EDITTEXT        IDC_EDIT_CARD_PWD,455,13,122,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "通过帐号密码查看帐号信息",IDC_BT_PEER_AC_INFO,77,29,105,14
+    PUSHBUTTON      "通过卡号卡密查看卡信息",IDC_BT_PEER_CARD_INFO,190,29,93,14
+    PUSHBUTTON      "通过卡号卡密查看帐号信息",IDC_BT_PEER_AC_BY_CARD,292,30,100,14
+    PUSHBUTTON      "通过帐号密码查看卡信息",IDC_BT_PEER_CARD_BY_AC,396,30,96,14
+    CONTROL         "以天为单位",IDC_RADIO_AS_DAY,"Button",BS_AUTORADIOBUTTON | WS_GROUP,16,50,56,10
+    CONTROL         "以分钟为单位",IDC_RADIO_AS_MINUTE,"Button",BS_AUTORADIOBUTTON,74,50,64,10
+    PUSHBUTTON      "特殊操作",IDC_BT_FN_MORE,592,14,50,14
+    LTEXT           "封号时间：",IDC_STATIC,140,51,41,8
+    EDITTEXT        IDC_EDIT_BAN_TIME,179,49,48,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "设置帐号状态",IDC_BT_SET_AC_STATE,344,49,53,14
+    LTEXT           "帐号状态类型：",IDC_STATIC,233,51,57,8
+    COMBOBOX        IDC_COMBO_AC_STATE,289,49,48,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "冻结帐号，时间不会流逝，并且不会自动恢复；\r\n封号时间会流逝，并且时间到了会自动恢复正常;\r\n只有从冻结状态恢复，用户的时间才不会流逝。",IDC_STATIC,404,45,176,26
+END
+
+IDD_DLG_MORE DIALOGEX 0, 0, 503, 178
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "特殊功能"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "开卡数量：",IDC_STATIC,9,27,41,8
+    EDITTEXT        IDC_EDIT_OPEN_CARD_CNT,56,25,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "开卡",IDC_BT_OPEN_CARDS,286,25,50,14
+    LTEXT           "卡的时间:",IDC_STATIC,104,28,36,8
+    EDITTEXT        IDC_EDIT_CARD_DAYS,144,26,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "注册码数量：",IDC_STATIC,7,9,49,8
+    EDITTEXT        IDC_EDIT_REG_KEY_CNT,59,7,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "生成注册码",IDC_BT_GEN_REG_KEY,110,7,50,14
+    LTEXT           "卡权限：",IDC_STATIC,191,27,33,8
+    EDITTEXT        IDC_EDIT_CARD_GRANT,228,25,51,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "批量充值",IDC_BT_PAY_SOME,7,46,50,14
+    PUSHBUTTON      "批量支付回滚",IDC_BT_ROLLBACK_SOME_PAY,67,47,54,14
+    LTEXT           "批量支付回滚的功能使用一定要小心，\n文件格式要正确(跟开卡文件格式一致),\n一个文件最好只选择一次",IDC_STATIC,203,135,144,26
+    PUSHBUTTON      "项目数据",IDC_BT_PROJ_DATAS,129,47,50,14
+    LTEXT           "帐号类型：",IDC_STATIC,7,69,41,8
+    EDITTEXT        IDC_EDIT_AC_TYPE,47,66,40,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CSV_DLG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_DLG_SET_PROJ_DATAS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 552
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 226
+    END
+
+    IDD_CSVIEWER_DIALOG_FULL, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_MORE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 496
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "CSViewer"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "CSViewer.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "CSViewer.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#include "res\CSViewer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"      // Standard components
+#if !defined(_AFXDLL)
+#include "afxribbon.rc"   // MFC ribbon and control bar resources
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

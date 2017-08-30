@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jfzrcalltest", "jfzrcalltest\jfzrcalltest.vcxproj", "{48787FF2-C96F-41B5-84E8-E60F4079CD68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Debug|Win32.Build.0 = Debug|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Release|Win32.ActiveCfg = Release|Win32
+		{48787FF2-C96F-41B5-84E8-E60F4079CD68}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
