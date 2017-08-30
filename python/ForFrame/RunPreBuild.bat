@@ -1,0 +1,2 @@
+python PreBuild.py
+pause
