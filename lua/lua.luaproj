@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c1697cf1-0edf-4cd1-a52a-27ef91e960d4}</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="common\" />
+    <Folder Include="wgframe\" />
+    <Folder Include="wgframe\pub\" />
+    <Folder Include="wgscript\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="common\CmnBase.lua" />
+    <Compile Include="common\WxCmn.lua" />
+    <Compile Include="wgframe\AcList.lua" />
+    <Compile Include="wgframe\androidaclist.lua" />
+    <Compile Include="wgframe\androidcfg.lua" />
+    <Compile Include="wgframe\androidfrm.lua" />
+    <Compile Include="wgframe\BasicSetting.lua" />
+    <Compile Include="wgframe\cfgfactory.lua" />
+    <Compile Include="wgframe\cmncfg.lua" />
+    <Compile Include="wgframe\consolecfg.lua" />
+    <Compile Include="wgframe\frmcmn.lua" />
+    <Compile Include="wgframe\FrmDlg.lua" />
+    <Compile Include="wgframe\frmfactory.lua" />
+    <Compile Include="wgframe\FrmHeaderCtrl.lua" />
+    <Compile Include="wgframe\FrmMenuBar.lua" />
+    <Compile Include="wgframe\FrmMidArea.lua" />
+    <Compile Include="wgframe\FrmStatusBar.lua" />
+    <Compile Include="wgframe\loginio.lua" />
+    <Compile Include="wgframe\loginui.lua" />
+    <Compile Include="wgframe\mainfrm.lua" />
+    <Compile Include="wgframe\plugintest.lua" />
+    <Compile Include="wgframe\pub\BasicSetting_p.lua" />
+    <Compile Include="wgframe\pub\cfgfactory_p.lua" />
+    <Compile Include="wgframe\pub\frmfactory_p.lua" />
+    <Compile Include="wgframe\pub\FrmMenuBar_p.lua" />
+    <Compile Include="wgframe\pub\FrmStatusBar_p.lua" />
+    <Compile Include="wgframe\pub\loginui_p.lua" />
+    <Compile Include="wgframe\pub\mainfrm_p.lua" />
+    <Compile Include="wgscript\dm_cmncfg.lua" />
+    <Compile Include="wgscript\dm_command.lua" />
+    <Compile Include="wgscript\sa_cmncfg.lua" />
+    <Compile Include="wgscript\sa_command.lua" />
+    <Compile Include="wgscript\s_cmncfg.lua" />
+    <Compile Include="wgscript\s_command.lua" />
+    <Compile Include="wgscript\s_StateResolver.lua" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
