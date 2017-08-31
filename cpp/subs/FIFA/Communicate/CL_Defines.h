@@ -21,7 +21,7 @@ const LPCTSTR kCaptchaPicNewName = _T("NewCaptcha.png");
 
 //控制台发给game模块一个固定的字符串
 const char* const kStableStr_ConsoleToLogin = 
-	"572BF63C-69618-4215-3hE9-0841E231244fa";
+	"572BF63C-69618-4215-3hE9-0841E231244fb";
 
 //login operator
 const P_ObjId kObjId_LoginOper = DEF_THE_CUSTOM_TEMPLATE_OBJ_ID_(1);

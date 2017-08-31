@@ -1,0 +1,84 @@
+//新分配的内存必须最少为0x200。
+var hookAddr
+mov hookAddr, 0a64ee4						//被hook的地址
+var newAddr
+mov newAddr, 0						//自己用内存分配的地址。可以为空，为空下面会自动分配内存的
+var oldAsmCodeFile
+mov oldAsmCodeFile, "收包处理的原始代码.txt"			//游戏中原始的代码部分（要被hook处的代码）。载入脚本前，得先打开脚本，好让OdScript记住文件路径所在。
+
+var retExeAddr
+var insideExeAddr
+var varTmp
+var varTmp1
+
+///////////////////////////////////////
+cmp newAddr, 0
+jnz LABEL_NO_ALLOC
+alloc 200						//分配内存
+mov newAddr, $RESULT
+eval "没有提供地址，则默认分配地址，大小为0x200，地址：{newAddr}"
+log $RESULT
+
+LABEL_NO_ALLOC:
+///////////////////////////////////////
+mov retExeAddr, newAddr
+add retExeAddr, 150					//用于存放原始asm，以及返回
+///////////////////////////////////////
+
+//asm被hook处的代码，并能够返回
+////////////////////////
+asmtxt retExeAddr, oldAsmCodeFile
+mov varTmp1, $RESULT
+
+mov varTmp, hookAddr
+add varTmp, varTmp1
+eval "jmp {varTmp}"		//计算得到要返回的游戏中的地址
+mov varTmp, retExeAddr
+add varTmp, varTmp1
+asm varTmp, $RESULT
+////////////////////////
+fill newAddr, 10, 90
+
+mov insideExeAddr, newAddr
+add insideExeAddr, 10
+
+mov varTmp, newAddr
+asm varTmp, "ret"
+add varTmp, $RESULT
+asm varTmp, "pushad"
+add varTmp, $RESULT
+eval "call {insideExeAddr}"
+asm varTmp, $RESULT
+add varTmp, $RESULT
+asm varTmp, "popad"
+add varTmp, $RESULT
+eval "jmp {retExeAddr}"
+asm varTmp, $RESULT
+////////////////////////
+
+//asmtxt insideExeAddr, "进行过滤收包asm.txt"
+
+////////////////////////
+var curIp
+var jzRet
+eval "jz {newAddr}"
+mov jzRet, $RESULT
+
+////////////////////////
+mov curIp, insideExeAddr
+
+////////////////////////在此处写要过滤或处理的代码。若要返回，则直接用ret
+asm curIp, "cmp dx, 0108"
+add curIp, $RESULT
+
+asm curIp, jzRet
+add curIp, $RESULT
+////////////////////////
+
+asm curIp, "ret"
+////////////////////////
+
+mov varTmp, newAddr
+add varTmp, 1
+eval "jmp {varTmp}"
+asm hookAddr, $RESULT

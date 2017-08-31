@@ -6,7 +6,7 @@
 */
 
 //版本uuid异或常量
-const unsigned char kAssistVersionXor = 0xa2;
+const unsigned char kAssistVersionXor = 0xa3;
 //版本事件对象名
 const char* const kAssistVersionEventObj = "_ComAtlStUads_";
 
@@ -20,7 +20,7 @@ bool CheckAssistVersion();
 
 //版本有效截止日期
 const int kVersionEndTime_Year = 2017;
-const int kVersionEndTime_Month = 10;
+const int kVersionEndTime_Month = 11;
 const int kVersionEndTime_Day = 1;
 
 const unsigned short kAssistVersion = 0x0059;

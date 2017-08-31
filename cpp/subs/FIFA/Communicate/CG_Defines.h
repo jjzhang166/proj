@@ -9,7 +9,7 @@
 //控制台发给game模块一个固定的字符串
 const char* const kStableStr_ConsoleToGame = 
 #ifdef __PROJ_JIN_GANG_
-	"C5144231-9538-42257-9236-221DaB3353E2f6";
+	"C5144231-9538-42257-9236-221DaB3353E2f7";
 #elif defined(__PROJ_XIAO_ER_)
 	"70275346-1A48-43129-8390-3311B92737F18";
 #endif

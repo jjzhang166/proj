@@ -1,0 +1,3 @@
+common目录提供了lua通用基础功能。
+wgframe是控制台界面通用的实现。
+wgscript提供辅助脚本通用的基础功能。

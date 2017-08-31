@@ -5,7 +5,7 @@
 @purpose for server ip info
 */
 
-const int kConsoleMinVer = 29;
+const int kConsoleMinVer = 30;
 #ifdef __PROJ_JIN_GANG_
 	const unsigned short int P_Port_CheckServer = 59421;
 	//const char* const kRemoteCheckServerIp = "162.251.95.27";
