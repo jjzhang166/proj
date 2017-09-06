@@ -1,3 +1,10 @@
 ide：项目中大量用到了C++11语法，所以包括vs2012在内的编译器都不能正常编译，必须安装Visual Studio 2013或以上版。
 在编译前需要安装python 2.7，并把python.exe所在目录加入到系统环境变量中。
 建议安装：BabeLua For 2013 V3.2.2.0。这是个VS的插件，用于管理/查看lua项目的。
+
+建议把proj目录放到f盘根目录下。
+参考cpp/libs/ReadMe.txt，把boost_1_62_0编译生成的lib库放到cpp/libs/boost_lib目录下，注意编译选项为静态库、多线程版。
+打开cpp\libs\wxWidgets\build\msw\wx_vc12.sln，编译debug和release版。
+打开cpp\libs\POCO\Poco.sln，编译debug_static_mt和release_static_mt。
+cpp\libs\lua目录下的dm、lua、luabind、luabind_wx、luacom、pluto，都有*.sln文件，分别打开并编译之。
+打开cpp\libs\lua\wxLua\wxLuaBuild\wxLua.sln，编译debug和release版。
